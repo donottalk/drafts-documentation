@@ -2,6 +2,20 @@
 title: Changelog
 ---
 
+#### v0.1.1.85
+
+- **New:** Landscape orientation support on iPhone is back.
+- **New:** Allowed orientations setting in `Aa` appearance settings, to force only portrait or landscape if desired (iPhone only).
+- **Fix:** Clean up a few minor crashers.
+- **Change:** Update some underlying links to point to the getdrafts.com domain.
+- **Change:** On watch, if no recent tags exist, add dummy tag when adding tag so scribble and other options are available, not just dictation.
+- **Change:** Arrange mode should be a page sheet on iPad.
+- **Fix:** If Watch did not capture a location with a new draft, assign one on phone.
+- **Fix:** Prevent case where watch inbox count goes down and back up while processing a new draft capture.
+- **New:** New `app.displaySuccessMessage(msg)`, `app.displayInfoMessage(msg)`, `app.displayWarningMessage(msg)`, `app.displayErrorMessage(msg)` methods which present banners with appropriate style – same as the action completion notifications and other banners used throughout the app.
+- **Change:** Some low level sync priority changes.
+- **Fix:** Prepending with OneDrive action should get line feed between new and old content.
+
 #### v0.1.1.82
 
 - **Change:** Settings for visibility and display mode of tabs in both drafts and action lists are now in the "..." menus.

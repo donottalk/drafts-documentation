@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Changelog | Drafts 5</title>
+<title>Changelog | Drafts</title>
 <meta property="og:title" content="Changelog" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
 <link rel="canonical" href="http://localhost:4000/beta-changelog.html" />
 <meta property="og:url" content="http://localhost:4000/beta-changelog.html" />
-<meta property="og:site_name" content="Drafts 5" />
+<meta property="og:site_name" content="Drafts" />
 <script type="application/ld+json">
 {"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/beta-changelog.html","publisher":null,"image":null,"headline":"Changelog","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=e17a599ac96cbe91c31a7371f75b96dca5d7267c">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6217233e28d279b44e96b4927fe5d4bac65522c1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -77,7 +77,23 @@
         </div>
 
         <div class="content">
-          <h4 id="v01182">v0.1.1.82</h4>
+          <h4 id="v01185">v0.1.1.85</h4>
+
+<ul>
+  <li><strong>New:</strong> Landscape orientation support on iPhone is back.</li>
+  <li><strong>New:</strong> Allowed orientations setting in <code class="highlighter-rouge">Aa</code> appearance settings, to force only portrait or landscape if desired (iPhone only).</li>
+  <li><strong>Fix:</strong> Clean up a few minor crashers.</li>
+  <li><strong>Change:</strong> Update some underlying links to point to the getdrafts.com domain.</li>
+  <li><strong>Change:</strong> On watch, if no recent tags exist, add dummy tag when adding tag so scribble and other options are available, not just dictation.</li>
+  <li><strong>Change:</strong> Arrange mode should be a page sheet on iPad.</li>
+  <li><strong>Fix:</strong> If Watch did not capture a location with a new draft, assign one on phone.</li>
+  <li><strong>Fix:</strong> Prevent case where watch inbox count goes down and back up while processing a new draft capture.</li>
+  <li><strong>New:</strong> New <code class="highlighter-rouge">app.displaySuccessMessage(msg)</code>, <code class="highlighter-rouge">app.displayInfoMessage(msg)</code>, <code class="highlighter-rouge">app.displayWarningMessage(msg)</code>, <code class="highlighter-rouge">app.displayErrorMessage(msg)</code> methods which present banners with appropriate style – same as the action completion notifications and other banners used throughout the app.</li>
+  <li><strong>Change:</strong> Some low level sync priority changes.</li>
+  <li><strong>Fix:</strong> Prepending with OneDrive action should get line feed between new and old content.</li>
+</ul>
+
+<h4 id="v01182">v0.1.1.82</h4>
 
 <ul>
   <li><strong>Change:</strong> Settings for visibility and display mode of tabs in both drafts and action lists are now in the “…” menus.</li>

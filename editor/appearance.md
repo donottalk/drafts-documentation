@@ -43,3 +43,4 @@ The Appearance screen also offers fine grained control over options for many edi
 - **Hide Status Bar**: Disable iOS status bar when in Drafts.
 - **Edit on draft selection**: If enabled, when new drafts are loaded the editor will automatically focus the draft for editing, displaying the keyboard.  If disabled, drafts will be loaded for viewing and an additional tap is need to begin editing.
 - **Hide toolbar while editing**: If enabled, the row of icons at the top of the editing screen will slide away when editing text.
+- **Allowed Orientations**: Limit the app to only allowing Portrait or Landscape orientation. Most commonly used on iPhone to prevent rotation to landscape by accident.
