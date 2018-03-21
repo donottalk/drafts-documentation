@@ -4,6 +4,8 @@ title: Themes and Editor Settings
 
 {% include back.html title="Editor" path="/editor" %}
 
+### Themes {% include pro.html %}
+
 Drafts supports app-wide themes to customize appearance, and light and dark modes. To access theme settings, open the `Aa` appearance settings screen from the bottom right of the editor.
 
 {% include doc-image.html src="/editor/appearance-themes.png" %}
@@ -12,7 +14,11 @@ The **Active Theme** section controls whether the light or dark theme is current
 
 The **Theme Selection** section allows selection of which of Drafts installed theme options should be used for light and dark modes. Also, allows selection of alternate app icons by tapping the icon.
 
-#### Syntax Highlighting
+### App Icon {% include pro.html %}
+
+Tap the app icon to view and select alternate home screen icons.
+
+### Syntax Highlighting
 
 Drafts offers support of inline syntax highlighting for several different types of markup, with more planned in the future.  Syntax highlighting is saved per-draft, and editor settings are stored separately by syntax, so font sizes, margins, and other options can differ by syntax.
 
@@ -21,7 +27,7 @@ Drafts offers support of inline syntax highlighting for several different types 
 
 In the syntax highlighting section the selection can be changed for the current active draft, or the default for new drafts.  The remaining syntax specific editor settings below will effect all drafts matching the "Current" syntax selection.
 
-#### Options for Current Syntax
+### Options for Current Syntax
 
 The Appearance screen also offers fine grained control over options for many editor related settings, controlling text behaviors, fonts and sizings as well as the editing environment in general.
 

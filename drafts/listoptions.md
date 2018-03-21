@@ -2,6 +2,8 @@
 title: Draft List Options
 ---
 
+{% include back.html title="Managing Drafts" path="/drafts" %}
+
 The draft list has a number of features to help organize and work with drafts.
 
 {% include doc-image.html src="/drafts/listoptions.png" %}

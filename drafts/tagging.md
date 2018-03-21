@@ -1,14 +1,20 @@
 ---
-title: Tagging
+title: Flags and Tagging
 ---
 
-Drafts allows one or more tags to be assigned to any draft to help organize and segment your draft library. Tags themselves are short strings. Tags may contain spaces and punctuation, but will be normalized to lower case for consistency.
+{% include back.html title="Managing Drafts" path="/drafts" %}
+
+Drafts can be flagged, similar to flagging email messages, to quickly mark them for special handling. Flagged messages appear in a special "Flagged" tab in the draft list.
+
+Drafts also allows one or more tags to be assigned to any draft to help organize and segment your draft library. Tags themselves are short strings. Tags may contain spaces and punctuation, but will be normalized to lower case for consistency.
+
+{% include doc-image.html src="/drafts/tags-flags.png" %}
 
 #### Assigning Tags
 
 To assign tags to the current draft, tap the tag icon at the top of the editing screen, and enter tags in the entry field, followed by comma or return to assign the tag. Tag suggestions are available in the extended keyboard row while doing tag entry.
 
-Tags can be assigned or removed from multiple drafts using operations at the bottom of the draft list...or via scripted actions as well.
+*Tags can be assigned or removed from multiple drafts using operations at the bottom of the draft list...or via scripted actions as well.*
 
 #### Tag Filtering
 

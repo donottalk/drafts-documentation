@@ -2,6 +2,8 @@
 title: Templates
 ---
 
+{% include back.html title="Actions" path="/actions" %}
+
 Drafts actions support a number of tags for dynamically inserting text when an action is performed. These can be used in most fields that accept text in actions, including not only fields for content, but for naming, creating subject lines, etc.
 
 ### Content Tags

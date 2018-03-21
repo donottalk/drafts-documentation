@@ -2,6 +2,8 @@
 title: Advanced Action Settings
 ---
 
+{% include back.html title="Actions" path="/actions" %}
+
 The action edit screen contains a number of advanced configuration options which affect how the action is run.  
 
 <div class="doc-image">

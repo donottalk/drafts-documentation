@@ -289,6 +289,14 @@ a.pro {
   border-radius: 8px;
   text-decoration: none;
 }
+ul {
+  >li {
+    >p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
 
 div.navigation {
   margin: 1em 0em;

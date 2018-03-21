@@ -2,6 +2,8 @@
 title: Credentials
 ---
 
+{% include back.html title="Actions" path="/actions" %}
+
 Some services accessed via Drafts actions require authentication. In these cases, the first time the action is used Drafts will trigger then necessary authentication process and when successfully completed, store the credentials for reuse.
 
 In most cases, these services use [OAuth](https://en.wikipedia.org/wiki/OAuth) and you will be redirected to the website for the service to provide your login and authorize Drafts. Drafts will store the token provided in these cases, and you will not need to enter your username and password directly in Drafts.

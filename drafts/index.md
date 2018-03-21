@@ -15,6 +15,7 @@ The draft list is organized into four tabs:
 
 #### Topics
 
+- [Flags and Tagging]({{ site.baseurl }}/drafts/tagging)
 - [Draft List Filtering & Options]({{ site.baseurl }}/drafts/listoptions)
-- [Tagging]({{ site.baseurl }}/drafts/tagging)
+- [Workspaces]({{ site.baseurl }}/drafts/workspaces) {% include pro.html %}
 - [Version History]({{ site.baseurl }}/drafts/versionhistory)
