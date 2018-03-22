@@ -2,6 +2,24 @@
 title: Changelog
 ---
 
+#### v0.9.1.2
+
+- **New:** Run Drafts 4 Action step. Takes template and action name, and executes in Drafts 4 via callback. Useful for step types not currently supported in Drafts 5.
+- **Change:** Using the "Drafts 5: Add as callback" migration option from Drafts 4 will generate an action which uses the new "Run Drafts 4 action" step.
+- **Change:** A few tweaks hoping to eliminate the issue where the checkboxes do not appear when entering select mode in draft and action lists.
+- **Fix:** Prevent sidebar gestures from triggering when text selection is changing.
+- **Fix:** Case where lost network connection could leave sync paused until the app restarted.
+- **Fix:** Improve tap zones for Select/Operations buttons.
+
+#### v0.9.1.1
+
+- **Change:** Reworked some of the messaging between the Watch and iPhone apps.  If the phone is connected, changes on the Watch should be much more immediate.
+- **Change:** General improvements to Find & Replace, including display of line numbers and truncation of longer strings in results.
+- **Fix:** Re-ordering action groups would not save correctly in some cases.
+- **Fix:** Results of arrange mode not immediately saved.
+- **Fix:** Save draft before displaying appearance settings.
+- **Fix:** Prevent extended keyboard row from appearing in link mode.
+
 #### v0.1.1.86
 
 - **New:** Landscape orientation support on iPhone is back. I punted a bit on the notch, but I don't feel too bad about it.

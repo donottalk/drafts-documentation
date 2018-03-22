@@ -77,7 +77,29 @@
         </div>
 
         <div class="content">
-          <h4 id="v01186">v0.1.1.86</h4>
+          <h4 id="v0912">v0.9.1.2</h4>
+
+<ul>
+  <li><strong>New:</strong> Run Drafts 4 Action step. Takes template and action name, and executes in Drafts 4 via callback. Useful for step types not currently supported in Drafts 5.</li>
+  <li><strong>Change:</strong> Using the “Drafts 5: Add as callback” migration option from Drafts 4 will generate an action which uses the new “Run Drafts 4 action” step.</li>
+  <li><strong>Change:</strong> A few tweaks hoping to eliminate the issue where the checkboxes do not appear when entering select mode in draft and action lists.</li>
+  <li><strong>Fix:</strong> Prevent sidebar gestures from triggering when text selection is changing.</li>
+  <li><strong>Fix:</strong> Case where lost network connection could leave sync paused until the app restarted.</li>
+  <li><strong>Fix:</strong> Improve tap zones for Select/Operations buttons.</li>
+</ul>
+
+<h4 id="v0911">v0.9.1.1</h4>
+
+<ul>
+  <li><strong>Change:</strong> Reworked some of the messaging between the Watch and iPhone apps.  If the phone is connected, changes on the Watch should be much more immediate.</li>
+  <li><strong>Change:</strong> General improvements to Find &amp; Replace, including display of line numbers and truncation of longer strings in results.</li>
+  <li><strong>Fix:</strong> Re-ordering action groups would not save correctly in some cases.</li>
+  <li><strong>Fix:</strong> Results of arrange mode not immediately saved.</li>
+  <li><strong>Fix:</strong> Save draft before displaying appearance settings.</li>
+  <li><strong>Fix:</strong> Prevent extended keyboard row from appearing in link mode.</li>
+</ul>
+
+<h4 id="v01186">v0.1.1.86</h4>
 
 <ul>
   <li><strong>New:</strong> Landscape orientation support on iPhone is back. I punted a bit on the notch, but I don’t feel too bad about it.</li>

@@ -20,4 +20,5 @@ title: Editor
 - [Arrange Mode]({{ site.baseurl }}/editor/arrangemode)
 - [Link Mode]({{ site.baseurl }}/editor/linkmode)
 - [Themes and Editor Settings]({{ site.baseurl }}/editor/appearance)
+- [Find and Replace]({{ site.baseurl }}/editor/find)
 - [App Settings]({{ site.baseurl }}/settings/)

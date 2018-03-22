@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Action Step – Run Workflow | Drafts</title>
-<meta property="og:title" content="Action Step – Run Workflow" />
+<title>Find and Replace | Drafts</title>
+<meta property="og:title" content="Find and Replace" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/actions/steps/runworkflow.html" />
-<meta property="og:url" content="http://localhost:4000/actions/steps/runworkflow.html" />
+<link rel="canonical" href="http://localhost:4000/editor/find.html" />
+<meta property="og:url" content="http://localhost:4000/editor/find.html" />
 <meta property="og:site_name" content="Drafts" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/steps/runworkflow.html","publisher":null,"image":null,"headline":"Action Step – Run Workflow","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/editor/find.html","publisher":null,"image":null,"headline":"Find and Replace","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -73,23 +73,14 @@
 
     <div id="main">
         <div class="header">
-            <h1>Action Step – Run Workflow</h1>
+            <h1>Find and Replace</h1>
         </div>
 
         <div class="content">
-          <p>Run a named workflow in the <a href="https://workflow.is">Workflow app</a>.</p>
+          <div class="navigation">
+  <a href="/editor">&lt; Editor</a>
+</div>
 
-<p>If the “Wait for response” option is enabled, Drafts will hold processing of the action waiting on a response from Workflow. If the Workflow responds using x-success, the action will continue and any response parameters provided by the target app will be available in the <code class="highlighter-rouge">context.callbackResponses</code> (<a href="https://github.com/agiletortoise/drafts-documentation/wiki/Context">docs</a>) object for subsequent script steps in the action. Additionally, a new template tag will be defined for the result parameter included in the callback response, named “workflow_result”.  For example, if the workflow returned “Hello”, the template tag <code class="highlighter-rouge">[[workflow_result]]</code> would be available for later action steps in the same action, and it would return <code class="highlighter-rouge">Hello</code>. If the target app responds with x-cancel callback, the action will be cancelled - x-error will fail the action and log responses.</p>
-
-<p>If “Wait for response” is enabled, Drafts will wait for 120 seconds for a response from the target app, and cancel the remainder of the action if none is received.</p>
-
-<h2 id="options">Options</h2>
-
-<ul>
-  <li><strong>Workflow name</strong>: Name of a valid Workflow in the Workflow app. Must match exactly.</li>
-  <li><strong>Template</strong>: Template for content to send to Workflow as an “input” parameter.</li>
-  <li><strong>Wait for response</strong>: If enabled, Drafts will wait for a callback response from a target app. See details above.</li>
-</ul>
 
         </div>
 

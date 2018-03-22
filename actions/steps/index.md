@@ -31,3 +31,4 @@ title: Action Steps
 - [Prompt]({{ site.baseurl }}/actions/steps/prompt)
 - [Run Workflow]({{ site.baseurl }}/actions/steps/runworkflow)
 - [Include Action]({{ site.baseurl }}/actions/steps/includeaction)
+- [Run Drafts 4 Action]({{ site.baseurl }}/actions/steps/rundrafts4action)
