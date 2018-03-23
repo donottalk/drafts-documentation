@@ -1,5 +1,5 @@
 ---
-title: Changelog
+title: Changelog: Beta Version
 ---
 
 #### v0.9.1.2
