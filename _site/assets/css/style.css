@@ -54,6 +54,9 @@ Add that light border to separate items into groups.
 */
 #menu .pure-menu ul, #menu .pure-menu .menu-item-divided { border-top: 1px solid #333; }
 
+#menu .menu-item-divided { background-color: #333; }
+#menu .menu-item-divided a { color: #eee; }
+
 /*
 Change color of the anchor links on hover/focus.
 */

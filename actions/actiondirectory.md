@@ -4,7 +4,7 @@ title: Action Directory
 
 {% include back.html title="Actions" path="/actions" %}
 
-The [Drafts Action Directory](https://drafts5-actions.agiletortoise.com/) is a resource for finding and sharing Drafts actions. The Directory includes actions created by Agile Tortoise, and contributed by the community.
+The [Drafts Action Directory](https://actions.getdrafts.com/) is a resource for finding and sharing Drafts actions. The Directory includes actions created by Agile Tortoise, and contributed by the community.
 
 ### Installing from the Action Directory
 

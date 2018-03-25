@@ -30,6 +30,7 @@ Add transition to containers so they can push in and out.
     transition: all 0.2s ease-out;
 }
 
+
 /*
 This is the parent `<div>` that contains the menu and the content area.
 */
@@ -134,6 +135,12 @@ appears on the left side of the page.
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
+    }
+    #menu .menu-item-divided {
+      background-color: #333;
+      a {
+        color: #eee;
+      }
     }
         /*
         Change color of the anchor links on hover/focus.
