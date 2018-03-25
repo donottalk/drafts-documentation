@@ -18,8 +18,8 @@ To log out of a service, visit *Settings > Credentials* in Drafts, and "Forget" 
 
 {% include doc-image.html src="/settings/credentials-accounts.png" %}
 
-Action which use credentials have an optional "Identifier" field in their advanced options. If you are only using one account for a service, such as Dropbox or Twitter, this field can remain blank.  To have one or more actions target a second account, place a value in the "Identifier" field and any actions with the same identifier will use the same account.
+Action steps which use credentials have an optional "Credential Identifier" field in their options. If you are only using one account for a service, such as Dropbox or Twitter, this field can remain blank.  To have one or more actions target a second account, place a value in the "Credential Identifier" field and any actions with the same identifier will use the same account.
 
 The first time an action for that service, with a specific identifier, a new authentication process will be started - be sure to login to the proper account you wish to target in that process.
 
-A common example use case for identifiers is to setup actions to target more than one Twitter account.
+A common example use case for identifiers is to setup actions to target more than one Twitter account. So, for example, you might assign a second Twitter action step an identifier

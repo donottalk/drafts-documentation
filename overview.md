@@ -5,7 +5,7 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 
 #### Draft Storage and Organization
 
-- **Tagging**. Assign multiple tags to drafts to help stay organized. Tags can be used to filter the draft list and queries - for all inbox, archives, flagged drafts - creating project workspaces.
+- **Tagging**. Assign multiple tags to drafts to help stay organized. Tags can be used to filter the draft list and queries - for all inbox, isArchived, flagged drafts - creating project workspaces.
 - **Filtering and Workspaces**. The inbox, archive, flagged and trash folder can be filtered by one or more tags, or display untagged drafts to create virtual workspaces for projects. Multiple workspaces can be save and retrieved.
 - **Focus mode**. One of Drafts key feature is always opening to a new draft, but sometimes it's useful to temporarily disable new draft creation when you are working on a longer draft, or processing a series of drafts. When focus mode is enabled, will always return to the last edited draft, and "After success" actions will open the next draft rather than a new one, to allow quickly processing a series of drafts without having to re-open them one at a time from the draft list.
 - **Next-Previous navigation**. Via buttons or keyboard shortcuts, easily move to the next or previous draft for quick processing.
@@ -50,6 +50,6 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 
 - **Drafts 5 will be released as a new app**.  Drafts 5 will not replace Drafts 4, but install along side it.
 - **Drafts 4 will continue to be supported and available**. Drafts 4 will remain in the store and be supported at this time. People can choose to migrate to Drafts 5 if and when they feel they are ready.
-- **Drafts 5 will offer a generous free version**. Drafts 5 will be a free download, with a generous feature set. Exact list of features available in the free version have not been finalized, but will allow create, editing of drafts and use of actions.
+- **Drafts 5 will offer a generous free version**. Drafts 5 will be a free download, with a generous feature set. Exact list of features available in the free version have not been finalized, but will allow creation, editing of drafts and use of actions.
 - **Drafts Pro** Advanced features and customizations will be available as part of the optional *Drafts Pro* subscription.
 - *We hope to bring Drafts to the Mac*. A lot of work has been done in the Drafts 5 development cycle to prepare the app to move to the Mac, but we do not have anything to announce at this time.

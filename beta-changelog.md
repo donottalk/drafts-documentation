@@ -2,6 +2,15 @@
 title: Changelog: Beta Version
 ---
 
+#### v0.9.1.3
+
+- **Change:** Reworked handling of buttons in Trash a bit.  You can no longer select drafts in Trash, "Operations" button changes to "Empty Trash" when trash is selected, and if a filter/workspace is active, you get the option to only empty the current drafts from the trash, or empty all.
+- **New:** Ability to import from Drafts 4 export files.  Allows for more granular migration, if some one only wants to import inbox, for example.  This means the D4 "Drafts Export" option can "Open in" D5 now and go directly to import.
+- **Fix:** Do not collapse tag options in editor when selecting new drafts.
+- **Change:** Better responsiveness to Dynamic Type size changes while app is running.
+- **Change:** Relabelling some values in action step configuration to better clarity, especially around credentials.
+- **Fix:** Caught another edge case in sync that is hard to explain. :-)
+
 #### v0.9.1.2
 
 - **New:** Run Drafts 4 Action step. Takes template and action name, and executes in Drafts 4 via callback. Useful for step types not currently supported in Drafts 5.

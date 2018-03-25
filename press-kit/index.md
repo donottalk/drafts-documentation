@@ -2,4 +2,4 @@
 title: Drafts Press Kit
 ---
 
-[Coming soon]
+[Coming Soon]
