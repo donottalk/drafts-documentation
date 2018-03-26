@@ -81,13 +81,13 @@
   <a href="/gettingstarted">&lt; Getting Started</a>
 </div>
 
-<p>If you are a user of previous versions of Drafts, Drafts 5 installs a separate app and will not affect your installation of Drafts 4. Both operate completely independently. Drafts and action do not sync between versions, but drafts and actions can be migrated from Drafts 4 to Drafts 5 at any time.  It is up to your to decided when and if you wish to migrate Drafts 4 data to Drafts 5.</p>
+<p>Drafts 5 installs as a new, separate app. It will not affect your installation of Drafts 4. Both operate completely independently. Drafts and action do not sync between versions, but drafts and actions can be migrated from Drafts 4 to Drafts 5 at any time. It is up to your to decided when you are ready to migrate Drafts 4 data to Drafts 5.</p>
 
-<h4 id="important-notes">Important Notes:</h4>
+<h4 id="migration-notes">Migration Notes</h4>
 
 <ul>
   <li>Migration requires Drafts 4.8.5 or greater be installed on the device doing the migration.</li>
-  <li>Migration only once on a single device or duplicate data will be created. Once migrated, drafts and actions will sync to other devices.</li>
+  <li>Migrate drafts only once on a single device or duplicate data will be created. Do <em>not</em> migrate on both your iPhone and iPad. Migrated data will sync between devices.</li>
 </ul>
 
 <div class="doc-image">
@@ -96,17 +96,49 @@
 
 <h3 id="migrating-drafts">Migrating Drafts</h3>
 
-<p>To migrate drafts, visit <code class="highlighter-rouge">Settings &gt; Migrate from Drafts 4 &gt; Migrate Drafts</code>. If Drafts 4 is installed, Drafts 5 will see Drafts 4 data and migration will be available. A preview of the number of drafts to import will appear. Optionally, a tag can be assigned to drafts as they are migrated.  When ready, tap the “Migrate Now” button.</p>
+<p>To migrate all drafts, visit <code class="highlighter-rouge">Settings &gt; Migrate from Drafts 4 &gt; Migrate Drafts</code>. If Drafts 4 is installed, Drafts 5 will see Drafts 4 data and migration will be available. A preview of the number of drafts to import will appear. Drafts 5 supports <a href="/drafts/tagging">tagging</a>. Optionally, a tag can be assigned to drafts as they are migrated if you wish to mark the imported drafts for historical purposes. When ready, tap the “Migrate Now” button.</p>
+
+<p>Drafts 5 will maintain inbox, archive, flagged status as well as associated creation, modification dates, locations, etc., when importing Drafts from Drafts 4.</p>
 
 <p>Migration is typically quite fast, but may take a short time to complete if you have a large history of drafts. It is recommended you allow migration to complete before exiting Drafts. Immediately after migration, Drafts will begin syncing data to iCloud. This may take some time as well on a large import, so be patient waiting for new drafts to appear on other devices.</p>
 
-<h3 id="migrating-actions-and-keys">Migrating Actions and Keys</h3>
+<p><strong>Note:</strong> If you wish to more selectively move drafts to Drafts 5, the Drafts 4 export feature in <code class="highlighter-rouge">Settings &gt; Export Drafts</code> can create an export file for only the inbox, for example. If you use this feature, and export as <code class="highlighter-rouge">JSON</code> format, and select <code class="highlighter-rouge">Open in... &gt; Copy to Drafts 5</code>, you can import just the selected drafts.</p>
 
-<p>Drafts 5 can migrate most actions and keyboard keys from Drafts 4. A few things to know:</p>
+<h3 id="migrating-actions">Migrating Actions</h3>
+
+<p>A few things to know before migrating actions and keys from Drafts 4:</p>
 
 <ul>
-  <li>Drafts 4 had a single extended keyboard row which was configured separately from actions. In Drafts 5, the extended keyboard is built from action groups. Because of this, migration of the custom keyboard row will create a new action group with the migrated keys.</li>
+  <li>Drafts 4 had a single extended keyboard row which is configured separately from actions. In Drafts 5, the extended keyboard is built from action groups. Because of this, migration of the custom keyboard row will create a new action group with the migrated keys.</li>
   <li>Drafts 5 support many new, more powerful actions - but not all actions available in Drafts 4 can be supported in Drafts 5. Mostly notably, Drafts 5 does not currently support Evernote integration, but there are other items that do not directly translate. Migration will make note of the number of actions which could not be migrated. In these cases, check the Action Directory for similar replacements, or contact support for assistance.</li>
+  <li>If you want to use Drafts 5, but rely on some actions not available in Drafts 5 at this time, Drafts 5 can also call actions in Drafts 4. See instructions below.</li>
+</ul>
+
+<h3 id="migrating-action-groups-and-keys">Migrating Action Groups and Keys</h3>
+
+<p>If you have many custom actions, or have spent time organizing your actions in Drafts 4, it may make sense to migrate all action groups and keys. To migrate all action groups and keys, visit <code class="highlighter-rouge">Settings &gt; Migrate from Drafts 4 &gt; Migrate Actions and Keys</code> and run each of the migration tasks. These tasks will create new Action Groups in Drafts 5 for each action group in Drafts 4.</p>
+
+<h3 id="migrating-individual-actions-and-calling-drafts-4">Migrating Individual Actions and Calling Drafts 4</h3>
+
+<p>It is also possible to selectively migrate individual actions from Drafts 4. If you are only interested in migrating a small number of custom actions from Drafts 4, this may be a better option.</p>
+
+<div class="doc-image">
+<img src="/images/docs/gettingstarted/migration-individual.png" alt="" />
+</div>
+
+<p>To individually migrate actions:</p>
+
+<ul>
+  <li>Open Drafts 4.</li>
+  <li>Swipe to the right on the action you with to migrate and tap the edit button.</li>
+  <li>Scroll to the bottom to the <code class="highlighter-rouge">Advanced</code> options section.</li>
+</ul>
+
+<p>If Drafts 5 is installed on the device, the following options will be available:</p>
+
+<ul>
+  <li><strong>Drafts 5: Migrate Action</strong>: This option will open Drafts 5 and attempt to convert the action to a Drafts 5 action and allow you select an action group to place the action.</li>
+  <li><strong>Drafts 5: Add as Callback</strong>: This option will open Drafts 5 and create a new action which is configured to run this action in Drafts 4 using x-callback-url, and return to Drafts 5 using the <a href="/actions/steps/rundrafts4action">Run Drafts 4 Action</a> action step. This is typically a secondary option for action types that you may rely on which cannot currently be reproduced in Drafts 5, because support for a service has not yet been implemented.</li>
 </ul>
 
         </div>
