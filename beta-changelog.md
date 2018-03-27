@@ -2,6 +2,14 @@
 title: Changelog – Beta Version
 ---
 
+#### v0.9.1.5
+
+- **Fix:** Visual glitch using search from widget/url scheme.
+- **Fix:** Tag added using quick-suggestion bar might not get saved.
+- **Fix:** Crash with bad values sent to prompt addSelect method.
+- **Fix:** If "Hide toolbar while editing" was active, tapping to place cursor could end up a couple line off tap position after animation.
+- **Change:** Lots of flow tweaks to subscription handling, onboarding.
+
 #### v0.9.1.4
 
 - **Change:** If we're reasonably sure you are going to complete a side panel reveal gesture, go ahead and dismiss the keyboard rather than waiting until the gesture completes.
