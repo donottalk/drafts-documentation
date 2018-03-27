@@ -1,6 +1,13 @@
 ---
-title: Changelog: Beta Version
+title: Changelog – Beta Version
 ---
+
+#### v0.9.1.4
+
+- **Change:** If we're reasonably sure you are going to complete a side panel reveal gesture, go ahead and dismiss the keyboard rather than waiting until the gesture completes.
+- **New:** Work on onboarding improvements.
+- **New:** Credentials settings screen empty states.
+- **Change:** Lots of work you won't see on finalizing IAP flows.
 
 #### v0.9.1.3
 

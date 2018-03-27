@@ -8,13 +8,18 @@ Drafts ships with a default set of actions. There are also many ready-to-use act
 
 Each action consists of one or more action steps.  Details of available step types are below.
 
+### Action Basics
+
+- [Action Groups](/actions/actiongroups)
+- [Configuring Actions]({{ site.baseurl }}/actions/advancedsettings)
+- [Advanced Action Settings]({{ site.baseurl }}/actions/advancedsettings)
+- [Action Directory]({{ site.baseurl }}/actions/actiondirectory)
+
 ### Actions Steps
 
 - [Action Steps]({{ site.baseurl }}/actions/steps/)
 
 ### Related Topics
 
-- [Advanced Action Settings]({{ site.baseurl }}/actions/advancedsettings)
-- [Action Directory]({{ site.baseurl }}/actions/actiondirectory)
 - [Example Actions and Action Groups]({{ site.baseurl }}/actions/examples)
 - [Templates and Tags]({{ site.baseurl }}/actions/templates)
