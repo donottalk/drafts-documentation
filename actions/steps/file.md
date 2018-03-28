@@ -4,10 +4,11 @@ title: Action Step – File
 
 Create or modify files in the iCloud Drive "Drafts 5" folder or local storage. It is not possible to modify files outside the app's iCloud Drive folder.
 
-## Examples
+#### Examples
 
+- [Append to iCloud Journal](http://actions.getdrafts.com/a/1EY)
 
-## Options
+#### Options
 
 - **Name**: Template for file name, including extension.
 - **Path**: Template for folder path, relative to root directory. For local files, this is the app "Documents" folder, for iCloud Drive it is the "Drafts 5" folder in iCloud Drive.

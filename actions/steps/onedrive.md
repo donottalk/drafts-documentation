@@ -4,12 +4,12 @@ title: Action Step – OneDrive
 
 Create, append or prepend to files in [Microsoft's OneDrive service](http://onedrive.live.com). Note that more advanced OneDrive actions can also be scripted with the [OneDrive scripting support](https://github.com/agiletortoise/drafts-documentation/wiki/OneDrive).
 
-## Examples
+#### Examples
 
 - [Save to OneDrive](http://drafts5-actions.agiletortoise.com/a/1D2)
 - [Append to OneDrive Journal](http://drafts5-actions.agiletortoise.com/a/1D3)
 
-## Options
+#### Options
 
 - **Name**: Template for file name, including extension.
 - **Path**: Path of folder, relative to OneDrive root, to place file. Default "/" is the root of your OneDrive folder. Should begin with "/"

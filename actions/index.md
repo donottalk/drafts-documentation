@@ -11,7 +11,7 @@ Each action consists of one or more action steps.  Details of available step typ
 ### Action Basics
 
 - [Action Groups](/actions/actiongroups)
-- [Configuring Actions]({{ site.baseurl }}/actions/advancedsettings)
+- [Configuring Actions]({{ site.baseurl }}/actions/actions)
 - [Advanced Action Settings]({{ site.baseurl }}/actions/advancedsettings)
 - [Action Directory]({{ site.baseurl }}/actions/actiondirectory)
 

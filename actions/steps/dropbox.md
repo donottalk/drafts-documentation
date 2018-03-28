@@ -4,10 +4,12 @@ title: Action Step – Dropbox
 
 Create, append or prepend to files in [Dropbox](http://dropbox.com).
 
-## Examples
+#### Examples
 
+- [Save to Dropbox](http://actions.getdrafts.com/a/1EU)
+- [Append to Dropbox Journal](http://actions.getdrafts.com/a/1EV)
 
-## Options
+#### Options
 
 - **Name**: Template for file name, including extension.
 - **Path**: Path of folder, relative to Dropbox root, to place file. Default "/" is the root of your Dropbox folder.

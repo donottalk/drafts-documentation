@@ -6,7 +6,6 @@ Script steps execute a Javascript. Scripting is a larger topic and has [it's own
 
 Scripts can be edited in Drafts own script editor, or can be import/exports from files.
 
-## Options
+#### Options
 
-- **script**
-  The script to execute.
+- **Script**: The script to execute.

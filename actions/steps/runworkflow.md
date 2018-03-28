@@ -8,7 +8,7 @@ If the "Wait for response" option is enabled, Drafts will hold processing of the
 
 If "Wait for response" is enabled, Drafts will wait for 120 seconds for a response from the target app, and cancel the remainder of the action if none is received.
 
-## Options
+#### Options
 
 - **Workflow name**: Name of a valid Workflow in the Workflow app. Must match exactly.
 - **Template**: Template for content to send to Workflow as an "input" parameter.

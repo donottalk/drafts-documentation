@@ -4,7 +4,7 @@ title: Action Step – Prompt
 
 Display a prompt with buttons and optional a text input field.  The results of the prompt are placed in a template tags for use in subsequent action steps.  More advanced prompts are possible with [the prompt script object](https://github.com/agiletortoise/drafts-documentation/wiki/Prompt) as well.
 
-## Options
+#### Options
 
 - **Key** *(default: prompt)*: The key is used to create Drafts tags based on the text input and/or buttons pressed when the prompt is displayed to the user. See discussion below.
 - **Title** *(default: Prompt)*: A short title of the prompt window.

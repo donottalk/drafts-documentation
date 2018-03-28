@@ -1,46 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
     <title>feature-themes</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="4" y="4" width="35" height="35" rx="9"></rect>
-        <rect id="path-2" x="42" y="4" width="35" height="35" rx="9"></rect>
-        <rect id="path-3" x="4" y="41" width="35" height="35" rx="9"></rect>
-        <rect id="path-4" x="42" y="41" width="35" height="35" rx="9"></rect>
+        <rect id="path-1" x="0" y="0" width="35" height="35" rx="9"></rect>
+        <rect id="path-2" x="0" y="0" width="35" height="35" rx="9"></rect>
+        <rect id="path-3" x="0" y="0" width="35" height="35" rx="9"></rect>
+        <rect id="path-4" x="0" y="0" width="35" height="35" rx="9"></rect>
     </defs>
     <g id="feature-themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Rectangle">
-            <use fill="#FDF6E3" fill-rule="evenodd" xlink:href="#path-1"></use>
-            <rect stroke="#979797" stroke-width="0.5" x="4.25" y="4.25" width="34.5" height="34.5" rx="9"></rect>
+        <g id="Group-4" transform="translate(4.000000, 4.000000)">
+            <g id="Rectangle">
+                <use fill="#FDF6E3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="0.5" x="0.25" y="0.25" width="34.5" height="34.5" rx="9"></rect>
+            </g>
+            <path d="M16.7988281,24 L15.5097656,20.1914062 L10.1386719,20.1914062 L8.84960938,24 L6.57421875,24 L11.6621094,9.90820312 L14.0253906,9.90820312 L19.1132812,24 L16.7988281,24 Z M12.7949219,12.2519531 L10.6953125,18.4335938 L14.953125,18.4335938 L12.8535156,12.2519531 L12.7949219,12.2519531 Z M23.9570312,22.4765625 C25.4511719,22.4765625 26.5839844,21.4804688 26.5839844,20.1523438 L26.5839844,19.3613281 L24.1230469,19.5175781 C22.7558594,19.5957031 22.0332031,20.1230469 22.0332031,21.0117188 C22.0332031,21.8710938 22.7851562,22.4765625 23.9570312,22.4765625 Z M23.3710938,24.1464844 C21.3300781,24.1464844 19.9140625,22.8867188 19.9140625,21.0605469 C19.9140625,19.2636719 21.2910156,18.2089844 23.8496094,18.0527344 L26.5839844,17.8964844 L26.5839844,17.1152344 C26.5839844,15.953125 25.8125,15.328125 24.4746094,15.328125 C23.3710938,15.328125 22.5605469,15.8945312 22.3945312,16.7734375 L20.421875,16.7734375 C20.4804688,14.9375 22.1992188,13.5996094 24.5332031,13.5996094 C27.0527344,13.5996094 28.6835938,14.9179688 28.6835938,16.9589844 L28.6835938,24 L26.6621094,24 L26.6621094,22.3105469 L26.6132812,22.3105469 C26.0371094,23.4140625 24.7578125,24.1464844 23.3710938,24.1464844 Z" id="Aa" fill="#586E75"></path>
         </g>
-        <text id="Aa" font-family="SFUIDisplay-Medium, SF UI Display" font-size="20" font-weight="400" fill="#586E75">
-            <tspan x="10.3203125" y="28">Aa</tspan>
-        </text>
-        <g id="Rectangle">
-            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-2"></use>
-            <rect stroke="#979797" stroke-width="0.5" x="42.25" y="4.25" width="34.5" height="34.5" rx="9"></rect>
+        <g id="Group-2" transform="translate(42.000000, 4.000000)">
+            <g id="Rectangle">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#979797" stroke-width="0.5" x="0.25" y="0.25" width="34.5" height="34.5" rx="9"></rect>
+            </g>
+            <path d="M16.7988281,24 L15.5097656,20.1914062 L10.1386719,20.1914062 L8.84960938,24 L6.57421875,24 L11.6621094,9.90820312 L14.0253906,9.90820312 L19.1132812,24 L16.7988281,24 Z M12.7949219,12.2519531 L10.6953125,18.4335938 L14.953125,18.4335938 L12.8535156,12.2519531 L12.7949219,12.2519531 Z M23.9570312,22.4765625 C25.4511719,22.4765625 26.5839844,21.4804688 26.5839844,20.1523438 L26.5839844,19.3613281 L24.1230469,19.5175781 C22.7558594,19.5957031 22.0332031,20.1230469 22.0332031,21.0117188 C22.0332031,21.8710938 22.7851562,22.4765625 23.9570312,22.4765625 Z M23.3710938,24.1464844 C21.3300781,24.1464844 19.9140625,22.8867188 19.9140625,21.0605469 C19.9140625,19.2636719 21.2910156,18.2089844 23.8496094,18.0527344 L26.5839844,17.8964844 L26.5839844,17.1152344 C26.5839844,15.953125 25.8125,15.328125 24.4746094,15.328125 C23.3710938,15.328125 22.5605469,15.8945312 22.3945312,16.7734375 L20.421875,16.7734375 C20.4804688,14.9375 22.1992188,13.5996094 24.5332031,13.5996094 C27.0527344,13.5996094 28.6835938,14.9179688 28.6835938,16.9589844 L28.6835938,24 L26.6621094,24 L26.6621094,22.3105469 L26.6132812,22.3105469 C26.0371094,23.4140625 24.7578125,24.1464844 23.3710938,24.1464844 Z" id="Aa" fill="#FFFFFF"></path>
         </g>
-        <text id="Aa" font-family="SFUIDisplay-Medium, SF UI Display" font-size="20" font-weight="400" fill="#FFFFFF">
-            <tspan x="48.3203125" y="28">Aa</tspan>
-        </text>
-        <g id="Rectangle">
-            <use fill="#405CA0" fill-rule="evenodd" xlink:href="#path-3"></use>
-            <rect stroke="#979797" stroke-width="0.5" x="4.25" y="41.25" width="34.5" height="34.5" rx="9"></rect>
+        <g id="Group-3" transform="translate(4.000000, 41.000000)">
+            <g id="Rectangle">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#979797" stroke-width="0.5" x="0.25" y="0.25" width="34.5" height="34.5" rx="9"></rect>
+            </g>
+            <g id="Group" transform="translate(10.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                <polyline id="Path-10" stroke-width="1.5" transform="translate(5.754628, 9.500002) rotate(-180.000000) translate(-5.754628, -9.500002) " points="3.55271368e-15 4 11.5092561 4 11.5092561 15.0000033"></polyline>
+                <polyline id="Path-10" stroke-width="1.5" points="3.5 0 15.0092561 0 15.0092561 11.0000033"></polyline>
+                <polyline id="Path-10" points="6 3 12.274213 3 12.274213 9.03769658"></polyline>
+            </g>
         </g>
-        <g id="Group" transform="translate(14.000000, 51.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
-            <polyline id="Path-10" stroke-width="1.5" transform="translate(5.754628, 9.500002) rotate(-180.000000) translate(-5.754628, -9.500002) " points="3.55271368e-15 4 11.5092561 4 11.5092561 15.0000033"></polyline>
-            <polyline id="Path-10" stroke-width="1.5" points="3.5 0 15.0092561 0 15.0092561 11.0000033"></polyline>
-            <polyline id="Path-10" points="6 3 12.274213 3 12.274213 9.03769658"></polyline>
-        </g>
-        <g id="Rectangle">
-            <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-4"></use>
-            <rect stroke="#979797" stroke-width="0.5" x="42.25" y="41.25" width="34.5" height="34.5" rx="9"></rect>
-        </g>
-        <g id="Group" transform="translate(52.000000, 51.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
-            <polyline id="Path-10" stroke-width="1.5" transform="translate(5.754628, 9.500002) rotate(-180.000000) translate(-5.754628, -9.500002) " points="3.55271368e-15 4 11.5092561 4 11.5092561 15.0000033"></polyline>
-            <polyline id="Path-10" stroke-width="1.5" points="3.5 0 15.0092561 0 15.0092561 11.0000033"></polyline>
-            <polyline id="Path-10" points="6 3 12.274213 3 12.274213 9.03769658"></polyline>
+        <g id="Group-5" transform="translate(42.000000, 41.000000)">
+            <g id="Rectangle">
+                <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#979797" stroke-width="0.5" x="0.25" y="0.25" width="34.5" height="34.5" rx="9"></rect>
+            </g>
+            <g id="Group" transform="translate(10.000000, 10.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+                <polyline id="Path-10" stroke-width="1.5" transform="translate(5.754628, 9.500002) rotate(-180.000000) translate(-5.754628, -9.500002) " points="3.55271368e-15 4 11.5092561 4 11.5092561 15.0000033"></polyline>
+                <polyline id="Path-10" stroke-width="1.5" points="3.5 0 15.0092561 0 15.0092561 11.0000033"></polyline>
+                <polyline id="Path-10" points="6 3 12.274213 3 12.274213 9.03769658"></polyline>
+            </g>
         </g>
     </g>
 </svg>

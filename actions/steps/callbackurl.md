@@ -10,7 +10,7 @@ If the "Wait for response" option is enabled, Drafts will hold processing of the
 
 If "Wait for response" is enabled, Drafts will wait for 120 seconds for a response from the target app, and cancel the remainder of the action if none is received.
 
-## Options
+#### Options
 
 - **Template**: Template for URL.
 - **Encode tags**: If enabled, the output of Drafts template tags will automatically be encoded for use in URL query parameters. For example, if the current draft has the text "Hello World" the `[[draft]]` tag would return "Hello%20World" with this option enabled. If you are using tags previous encoded in prior action steps, this can be diabled.

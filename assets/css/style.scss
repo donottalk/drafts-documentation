@@ -4,7 +4,7 @@
 
 html, button, input, select, textarea,
     .pure-g [class *= "pure-u"] {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 0.9em;
 }
 
@@ -174,7 +174,7 @@ appears on the left side of the page.
         text-align: center;
         text-transform: none;
         font-weight: normal;
-        padding: .6em 0;
+        padding: 0;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/

@@ -4,13 +4,15 @@ title: Action Directory
 
 {% include back.html title="Actions" path="/actions" %}
 
-The [Drafts Action Directory](https://actions.getdrafts.com/) is a resource for finding and sharing Drafts actions. The Directory includes actions created by Agile Tortoise, and contributed by the community.
+The [Drafts Action Directory](https://actions.getdrafts.com/) is a resource for finding and sharing Drafts actions. The Directory includes actions created by Agile Tortoise, and contributed by the community.  The directory also offers [integration guides](https://actions.getdrafts.com/apps) for a growing list of popular apps & services.
 
 ### Installing from the Action Directory
 
-To install actions or action groups from the Directory, visit the site and find something you are interested in. Tap the "Install" link on a device with Drafts installed, and Drafts will be opened, and you will be prompted to confirm the installation.
+To install actions or action groups from the Directory, [visit the site](https://actions.getdrafts.com/) and find something you are interested in. Tap the "Install" link on a device with Drafts installed, Drafts will be opened, and you will be prompted to confirm the installation and choose an action group for the imported action.
 
-### Sharing to the Action Directory
+After installing an action, it can be modified to suit your needs.
+
+### Sharing to the Action Directory {% include pro.html %}
 
 If you have created an action, or group of related actions, which might be useful to others, the best way to share is via the Action Directory. When you share to the directory, the action will be uploaded and it will be assigned a unique URL which can be used to send out to others or post on the web.
 
