@@ -2,6 +2,8 @@
 title: Action Step – Clipboard
 ---
 
+{% include back.html title="Action Steps" path="/actions/steps" %}
+
 Clipboard steps can replace, append or prepend to the system clipboard.
 
 #### Examples

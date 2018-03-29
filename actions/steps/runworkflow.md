@@ -2,6 +2,8 @@
 title: Action Step – Run Workflow
 ---
 
+{% include back.html title="Action Steps" path="/actions/steps" %}
+
 Run a named workflow in the [Workflow app](https://workflow.is).
 
 If the "Wait for response" option is enabled, Drafts will hold processing of the action waiting on a response from Workflow. If the Workflow responds using x-success, the action will continue and any response parameters provided by the target app will be available in the `context.callbackResponses` ([docs](https://github.com/agiletortoise/drafts-documentation/wiki/Context)) object for subsequent script steps in the action. Additionally, a new template tag will be defined for the result parameter included in the callback response, named "workflow_result".  For example, if the workflow returned "Hello", the template tag `[[workflow_result]]` would be available for later action steps in the same action, and it would return `Hello`. If the target app responds with x-cancel callback, the action will be cancelled - x-error will fail the action and log responses.

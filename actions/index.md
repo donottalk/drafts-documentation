@@ -6,7 +6,11 @@ In Drafts, actions are commands used to output to other services and apps, manip
 
 Drafts ships with a default set of actions. There are also many ready-to-use actions which can installed from the [Action Directory]({{ site.baseurl }}/actions/actiondirectory). [Drafts Pro]({{ site.baseurl }}/draftspro) users can also create and edit actions.
 
-Each action consists of one or more action steps.  Details of available step types are below.
+{% include doc-image.html src="/actions/action-list.png" %}
+
+Actions are accessed in the Action List, a panel to the right of the screen, which can be displayed by tapping the actions button or swiping to the left anywhere in the editor. To run an action, simply tap it.
+
+Each action consists settings which control the display and behavior of the action, and one or more action steps which do the actual work. Details of available step types are below.
 
 ### Action Basics
 

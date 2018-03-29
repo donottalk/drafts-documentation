@@ -52,10 +52,9 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 ### What's Missing
 
 - **Some action steps and service integrations that were in Drafts 4 are not in Drafts 5**: In some cases the same functionality can still be integrated. Some of these may return to Drafts 5 as direct integrations, but they are not there at the moment. These include:
-  - *Evernote*: Text can still be sent to Evernote via the Share action, URL-based actions, or by calling Drafts 4 actions - but the direct integration through Evernote action steps which can target and append to notes in Evernote is not implemented.
   - *Box*: Files can be created, append and prepend to Box using the new WebDAV action step and [Box's WebDAV support](https://community.box.com/t5/Upload-and-Download-Files-and/WebDav-with-Box/ta-p/310), or via Export steps and the File.app Box integration. There is not currently a "Box" dedicated action step.
   - *Path and Google Plus*: These social media networks no longer have dedicated action steps.
-- **iMessages app is not available**: We are likely to restore this functionality soon, bu the iMessages app was not ready in time for the initial release. 
+- **iMessages app is not available**: We are likely to restore this functionality soon, bu the iMessages app was not ready in time for the initial release.
 
 ### The Business Bits
 

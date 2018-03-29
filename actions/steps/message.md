@@ -2,6 +2,8 @@
 title: Action Step – Message
 ---
 
+{% include back.html title="Action Steps" path="/actions/steps" %}
+
 Send pre-configured iMessages. When called, the Messages window will open pre-addressed to provided recipients, and will text filled in and ready to send. Changes can be made in this window before completing the Message.
 
 #### Examples

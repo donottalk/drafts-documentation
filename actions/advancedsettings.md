@@ -6,9 +6,7 @@ title: Advanced Action Settings
 
 The action edit screen contains a number of advanced configuration options which affect how the action is run.  
 
-<div class="doc-image">
-<img src="{{ site.baseurl }}/images/docs/actions/after-success.png" alt="Advanced Settings"/>
-</div>
+{% include doc-image.html src="/actions/after-success.png" %}
 
 ### Confirm before running
 

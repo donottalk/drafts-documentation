@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Action Step – Run Workflow | Drafts</title>
-<meta property="og:title" content="Action Step – Run Workflow" />
+<title>Action Step – Evernote | Drafts</title>
+<meta property="og:title" content="Action Step – Evernote" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/actions/steps/runworkflow.html" />
-<meta property="og:url" content="http://localhost:4000/actions/steps/runworkflow.html" />
+<link rel="canonical" href="http://localhost:4000/actions/steps/evernote.html" />
+<meta property="og:url" content="http://localhost:4000/actions/steps/evernote.html" />
 <meta property="og:site_name" content="Drafts" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/steps/runworkflow.html","publisher":null,"image":null,"headline":"Action Step – Run Workflow","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/steps/evernote.html","publisher":null,"image":null,"headline":"Action Step – Evernote","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -72,7 +72,7 @@
 
     <div id="main">
         <div class="header">
-            <h1>Action Step – Run Workflow</h1>
+            <h1>Action Step – Evernote</h1>
         </div>
 
         <div class="content">
@@ -80,18 +80,37 @@
   <a href="/actions/steps">&lt; Action Steps</a>
 </div>
 
-<p>Run a named workflow in the <a href="https://workflow.is">Workflow app</a>.</p>
+<p>Create, append or prepend to notes in <a href="http://evernote.com">Evernote</a>.</p>
 
-<p>If the “Wait for response” option is enabled, Drafts will hold processing of the action waiting on a response from Workflow. If the Workflow responds using x-success, the action will continue and any response parameters provided by the target app will be available in the <code class="highlighter-rouge">context.callbackResponses</code> (<a href="https://github.com/agiletortoise/drafts-documentation/wiki/Context">docs</a>) object for subsequent script steps in the action. Additionally, a new template tag will be defined for the result parameter included in the callback response, named “workflow_result”.  For example, if the workflow returned “Hello”, the template tag <code class="highlighter-rouge">[[workflow_result]]</code> would be available for later action steps in the same action, and it would return <code class="highlighter-rouge">Hello</code>. If the target app responds with x-cancel callback, the action will be cancelled - x-error will fail the action and log responses.</p>
+<h4 id="examples">Examples</h4>
 
-<p>If “Wait for response” is enabled, Drafts will wait for 120 seconds for a response from the target app, and cancel the remainder of the action if none is received.</p>
+<ul>
+  <li><a href="">Save to Evernote</a></li>
+  <li><a href="">Append to Evernote Journal</a></li>
+</ul>
 
 <h4 id="options">Options</h4>
 
 <ul>
-  <li><strong>Workflow name</strong>: Name of a valid Workflow in the Workflow app. Must match exactly.</li>
-  <li><strong>Template</strong>: Template for content to send to Workflow as an “input” parameter.</li>
-  <li><strong>Wait for response</strong>: If enabled, Drafts will wait for a callback response from a target app. See details above.</li>
+  <li><strong>Note</strong>: Template for note name.</li>
+  <li><strong>Notebook</strong>: Template for name of an existing Notebook in your Evernote account. Leave blank to use the default notebook.</li>
+  <li><strong>Tags</strong>: Template for tags to assign the note. Should be comma-delimited list of tags. If they do not exist, they will be created. Use the [[tags]] template tag to assign draft tags.</li>
+  <li><strong>Template</strong>: Template for the content of the note.</li>
+  <li><strong>Template Output Format</strong>: The type of output from the above template property. Evernote uses it’s own <a href="https://dev.evernote.com/doc/articles/enml.php">HTML-like ENML markup</a> for notes and conversion needs to be done before saving. This setting determines how Drafts will apply conversion. Options are:
+    <ul>
+      <li><strong>Text</strong>: Assume the output of the template plain text. Drafts will convert the plain text to ENML by adding line feed tags.</li>
+      <li><strong>Markdown</strong>: Assume the template output is Markdown. If you want Markdown syntax to be converted to rich-text in Evernote, choose “Markdown”. Drafts will take the output of the template and run it through the Markdown processor to convert to X-HTML before sending to Evernote.</li>
+      <li><strong>ENML</strong>: Assume the output of the template is already valid ENML. This is an advanced setting for cases where scripting or special output is already configured with the necessary valid ENML tags.</li>
+    </ul>
+  </li>
+  <li><strong>Write Type</strong>:
+    <ul>
+      <li><strong>create</strong>: Create a new note.</li>
+      <li><strong>replace</strong>: Create new note, overwriting an existing one with the same name, if it exists.</li>
+      <li><strong>prepend</strong>: Prepend template content at the beginning of the note. Create the note if it does not already exist.</li>
+      <li><strong>append</strong>: Append template content at the end of the note. Create the note if it does not already exist.</li>
+    </ul>
+  </li>
 </ul>
 
         </div>

@@ -45,5 +45,5 @@ Drafts actions support a number of tags for dynamically inserting text when an a
 ## Other Special markup
 
 - `{% raw %}{{ }}{% endraw %}` Wrap text in double-curly brackets to have the text URL encoded.
-- `{% raw %}%% %%{% endraw %}` Wrap text in double percent signs to run the enclosed text through the Markdown engine and convert it to HTML.  This is useful to export Markdown to HTML, use in HTML Preview steps or other purposes.  By default, HTML5 compliant HTML is generated, but if you include the xhtml parameter, like `%%xhtml|...%%`, XHTML will be output.  This is needed to generate HTML compatible with Evernote's ENML markup.
+- `{% raw %}%% %%{% endraw %}` Wrap text in double percent signs to run the enclosed text through the Markdown engine and convert it to HTML.  This is useful to export Markdown to HTML, use in HTML Preview steps or other purposes.
 - `<<snippet-abbreviation>>` A valid [TextExpander](https://textexpander.com) abbreviation wrapped in double brackets will be expanded at runtime.

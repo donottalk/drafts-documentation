@@ -2,6 +2,12 @@
 title: Changelog – Beta Version
 ---
 
+#### v0.9.1.6
+
+- **New:** Evernote support. To the best of my knowledge this is fully compatible with the D4 implementation. Evernote actions can be migrated from D4 now and I will post a few examples in the Action Directory (http://actions.getdrafts.com) along with this release.
+- **New:** Built with Xcode 9.3 on iOS 11.3 SDK
+- **Fix:** Editing an action from the results of an action search would not save changes to action.
+
 #### v0.9.1.5
 
 - **Fix:** Visual glitch using search from widget/url scheme.

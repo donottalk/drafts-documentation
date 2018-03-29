@@ -1,12 +1,17 @@
 ---
 title: Action Steps
 ---
+
+{% include back.html title="Actions" path="/actions" %}
+
 ### System
 
 - [Clipboard]({{ site.baseurl }}/actions/steps/clipboard)
 - [Mail]({{ site.baseurl }}/actions/steps/mail)
 - [Message]({{ site.baseurl }}/actions/steps/message)
 - [Share]({{ site.baseurl }}/actions/steps/share)
+- [Reminder]({{ site.baseurl }}/actions/steps/reminder)
+- [List in Reminders]({{ site.baseurl }}/actions/steps/listinreminders)
 - [Export]({{ site.baseurl }}/actions/steps/export)
 - [Print]({{ site.baseurl }}/actions/steps/print)
 
@@ -21,6 +26,7 @@ title: Action Steps
 - [Google Drive]({{ site.baseurl }}/actions/steps/googledrive)
 - [OneDrive]({{ site.baseurl }}/actions/steps/onedrive)
 - [WebDAV]({{ site.baseurl }}/actions/steps/webdav)
+- [Evernote]({{ site.baseurl }}/actions/steps/evernote)
 
 ### Utility
 

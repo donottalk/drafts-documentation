@@ -2,6 +2,8 @@
 title: Action Step – Print
 ---
 
+{% include back.html title="Action Steps" path="/actions/steps" %}
+
 Print to an AirPrint printer.
 
 #### Examples

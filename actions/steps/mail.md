@@ -2,6 +2,8 @@
 title: Action Step – Mail
 ---
 
+{% include back.html title="Action Steps" path="/actions/steps" %}
+
 Send pre-configured email messages either using Mail.app or web services in the background.
 
 #### Examples

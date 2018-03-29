@@ -2,6 +2,8 @@
 title: Action Step – Open URL
 ---
 
+{% include back.html title="Action Steps" path="/actions/steps" %}
+
 Construct and open an URL. Can be used to open web URLs, but also other apps utilizing non-http URL schemes.
 
 #### Options
