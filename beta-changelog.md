@@ -2,6 +2,17 @@
 title: Changelog – Beta Version
 ---
 
+#### v0.9.1.7
+
+- **Fix:** Problem with mis-displayed credentials in settings.
+- **Change:** Add confirmation when forgetting credentials.
+- **Fix:** Changes to current list options should unload workspace if active.
+- **Fix:** Workaround (hopefully) for the cursor not moving to the top when a new draft is created.
+- **Fix:** Updated URL in default script comments.
+- **Change:** Some tweaks to Evernote's authentication code, so it, you know, authenticates more reliably, hopefully.
+- **New:** Added option to jump to creation and modification maps locations from (i) detail.
+- **Change:** Updates to default action groups used in inital installation.
+
 #### v0.9.1.6
 
 - **New:** Evernote support. To the best of my knowledge this is fully compatible with the D4 implementation. Evernote actions can be migrated from D4 now and I will post a few examples in the Action Directory (http://actions.getdrafts.com) along with this release.

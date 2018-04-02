@@ -2,13 +2,15 @@
 title: Editor
 ---
 
+The editor is the center of the Drafts world.  It is where you create and edit text. The app launches directly to the editor - typically to directly to a new draft, ready to edit.
+
 ### Top Toolbar
 
 {% include doc-image.html src="/editor/toptoolbar.png" %}
 
 #### Related Topics
 
-- [Tagging]({{ site.baseurl }}/drafts/tagging)
+- [Flags and Tagging]({{ site.baseurl }}/drafts/tagging)
 
 ### Bottom Toolbar
 

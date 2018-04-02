@@ -22,4 +22,4 @@ Additional sorting and display options can be selected using the list options ".
 
 ### Workspaces {% include pro.html %}
 
-If you have particular sets of filters you use often, you can save all the filtering, search and display options as a "Workspace" in the list options "..." view. Saved workspaces can be selected all the active list options will be set to those stored in the workspace.
+If you have particular sets of filters you use often, you can save all the filtering, search and display options as a "Workspace" in the list options "..." view. Saved workspaces can be selected all the active list options will be set to those stored in the workspace. Read the [Workspaces article](/drafts/workspaces) for more details.
