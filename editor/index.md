@@ -19,6 +19,7 @@ The editor is the center of the Drafts world.  It is where you create and edit t
 #### Related Topics
 
 - [Extended Keyboard](/editor/keyboard)
+- [Tasks](/editor/tasks)
 - [Focus Mode]({{ site.baseurl }}/editor/focusmode)
 - [Arrange Mode]({{ site.baseurl }}/editor/arrangemode)
 - [Link Mode]({{ site.baseurl }}/editor/linkmode)

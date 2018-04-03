@@ -2,6 +2,17 @@
 title: Changelog – Beta Version
 ---
 
+#### v0.9.1.9
+
+- **New:** Select > Operations > Run Action is back in drafts list.
+- **Fix:** Problem encoded special characters in Dropbox file names (because they need ASCII encoding - oops).
+- **Fix:** Focus mode not loading "next" draft properly when action disposition performed.
+- **Fix:** Crasher on Watch updating complication.
+- **Fix:** Changes to workspace might not get saved on iPad if popover dismissed without returning to Workspace list.
+- **Change:** Better refreshing of Workspaces tabs when changes are made to a workspace.
+- **Fix:** Minor visual tweaks to prompts.
+- **Fix:** Keyboard shortcuts were not working in prompts.
+
 #### v0.9.1.7
 
 - **Fix:** Problem with mis-displayed credentials in settings.

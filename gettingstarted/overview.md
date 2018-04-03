@@ -12,8 +12,8 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 - **Multiple extended keyboards**. Keyboard configuration has been integrated into actions. Any action group can be displayed on the extended keyboard, and you can quickly select between multiple keyboard rows by swiping up-down on row. [Learn more](/editor/keyboard)
 - **App-wide themes and alternate app icons**.
 - **Detailed control over text editing options**. Adjust margins, line height, line numbering, auto-correct, smart quotes/dashes, and more.
-- **Tappable [x] / [ ] task check marks**.
-- **Pin draft or action lists on iPad**. If you prefer to keep open draft or action list, you can.
+- **Tappable [x] / [ ] task check marks**. [Learn more](/editor/tasks)
+- **Pin draft or action lists open on iPad**.
 - **Find and replace**. In draft find and replace, including regular expression support.
 - **Expanded external keyboard support**. Better app navigation and, as always, customizable, assignable hot keys for actions.
 - **Improved arrange mode**. Arranging selected lines, or arranging by blocks or lines.
@@ -53,8 +53,9 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 
 - **Some action steps and service integrations that were in Drafts 4 are not in Drafts 5**: In some cases the same functionality can still be integrated. Some of these may return to Drafts 5 as direct integrations, but they are not there at the moment. These include:
   - *Box*: Files can be created, append and prepend to Box using the new WebDAV action step and [Box's WebDAV support](https://community.box.com/t5/Upload-and-Download-Files-and/WebDav-with-Box/ta-p/310), or via Export steps and the File.app Box integration. There is not currently a "Box" dedicated action step.
+  - *Event action step*: Calendar events can be create via scripting, or third party app integrations (like Fantastical), but there is not currently an equivalent to the Drafts 4 "Event" action.
   - *Path and Google Plus*: These social media networks no longer have dedicated action steps.
-- **iMessages app is not available**: We are likely to restore this functionality soon, bu the iMessages app was not ready in time for the initial release.
+- **iMessages app is not available**: We are likely to restore this functionality soon, but the iMessages app was not ready in time for the initial release.
 
 ### The Business Bits
 
