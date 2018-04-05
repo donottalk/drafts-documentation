@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Drafts. Where Text Starts.
 ---
 
 <h2 style='text-align:center;color:maroon;'>The Next Generation of Drafts - Coming April, 2018</h2>

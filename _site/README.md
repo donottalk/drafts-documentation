@@ -1,5 +1,5 @@
 # drafts-documentation
 
-Documentation for Drafts 5
+This is the repository for the Drafts website. You probably really want to be here:
 
 [getdrafts.com](http://getdrafts.com/)
