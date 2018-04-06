@@ -12,8 +12,8 @@
     <meta property=”og:image” content=”http://getdrafts.com/images/drafts-ogimage.png” />
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Focus Mode | Drafts</title>
-<meta property="og:title" content="Focus Mode" />
+<title>Focus Mode &amp; “New Draft After” Timeout | Drafts</title>
+<meta property="og:title" content="Focus Mode &amp; “New Draft After” Timeout" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://localhost:4000/editor/focusmode.html" />
 <meta property="og:site_name" content="Drafts" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/editor/focusmode.html","publisher":null,"image":null,"headline":"Focus Mode","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/editor/focusmode.html","publisher":null,"image":null,"headline":"Focus Mode &amp; “New Draft After” Timeout","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -79,7 +79,7 @@
 
     <div id="main">
         <div class="header">
-            <h1>Focus Mode</h1>
+            <h1>Focus Mode & "New Draft After" Timeout</h1>
         </div>
 
         <div class="content">
@@ -87,11 +87,23 @@
   <a href="/editor">&lt; Editor</a>
 </div>
 
+<p>To enable quick-capture, by default Drafts opens to a new, ready-to-edit draft. Drafts offers control over this behavior with the “New draft after” timeout setting, and Focus mode.</p>
+
+<h3 id="new-draft-after-timeout">New Draft After Timeout</h3>
+
+<p>The new draft after timeout controls how long Drafts has to be idle before returning to the app will create a new draft. The setting defaults to 60 seconds, but can be set to as short as 30 seconds or as long as an hour. This buffer allows you to jump between apps, copy and paste information, etc., with loosing your current draft, while still allowing the app to be ready for a new item after you return. What timeout works best varies depending on how you use the app and how often you return to existing drafts to update them. Focus mode (details below) can be used to completely disable this timeout.</p>
+
+<div class="doc-image">
+<img src="/images/docs/editor/focusmode.png" alt="" />
+</div>
+
+<h3 id="focus-mode">Focus Mode</h3>
+
 <p>Newly introduced in Drafts 5, focus mode changes two key Drafts behaviors to let you focus on a particular on-going project, or to more easily process a collection of drafts. Focus mode is enabled and disabled using the focus mode button in the lower left of the editor, or in settings. When in focus mode, these two changes occur:</p>
 
 <ol>
-  <li>The “Create new draft” setting is disabled. Draft will always return to the last edited draft, rather than creating a new one when you return to the app after the specified period of time.</li>
-  <li>If an action which uses the <a href="%20site.baseurl%20/actions/advancedsettings">after success</a> to move draft to the archive or trash is used, the next draft in the current draft list filter will be loaded, as if the next button were pressed, rather than creating a new draft.</li>
+  <li>The “New draft after” setting is disabled. Draft will always return to the last edited draft, rather than creating a new one when you return to the app after the specified period of time.</li>
+  <li>If an action which uses the <a href="/actions/advancedsettings">after success</a> to move draft to the archive or trash is used, the next draft in the current draft list filter will be loaded, as if the next button were pressed, rather than creating a new draft.</li>
 </ol>
 
 <p>In combination, these change make it easy to focus on a particular draft if you are doing on-going research, etc., and also make it easy to focus on processing a series of drafts one after the other without having to navigate the draft list to find the next unprocessed draft.</p>

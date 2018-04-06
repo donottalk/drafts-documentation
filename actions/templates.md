@@ -1,10 +1,10 @@
 ---
-title: Templates
+title: Templates and Tags
 ---
 
 {% include back.html title="Actions" path="/actions" %}
 
-Drafts actions support a number of tags for dynamically inserting text when an action is performed. These can be used in most fields that accept text in actions, including not only fields for content, but for naming, creating subject lines, etc.
+Drafts has a lightweight template engine to allow control over how text is output in action steps.  Templates are used for most values in action steps, so can be used to not only create the content of an exported file, or mail message, but to dynamically create the file name and folder, assign tags, insert timestamps and more, when an action is run.
 
 ### Content Tags
 
