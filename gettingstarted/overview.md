@@ -8,9 +8,9 @@ title: Overview for Drafts 4 Users
 
 ### The Business Bits
 
-- **Drafts 5 is being released as a new app**. Drafts 5 will not replace Drafts 4, but install along side it. Drafts 5 can migrate drafts, actions and keyboard customizations from Drafts 4.
-- **Drafts 4 will continue to be supported and available**. Drafts 4 will remain in the store and be supported at this time. We hope you love all the great new feature in Drafts 5 and want to upgrade, but know not everyone want to jump on the latest thing right away. People can choose to migrate to Drafts 5 if and when they feel they are ready.
-- **Drafts 5 will be a free download**. Drafts 5 will be a free download, with a generous feature set. The free version is a great way to test drive Drafts 5, and will offer full support for creating, editing, syncing of drafts and built-in actions.
+- **Drafts 5 is being released as a new app**. Drafts 5 does not replace Drafts 4, but install along side it. Drafts 5 can migrate drafts, actions and keyboard customizations from Drafts 4, but data does not sync between the two apps and they can happily co-exist on the same device.
+- **Drafts 4 will continue to be supported and available**. Drafts 4 will remain in the App Store and be supported at this time. We hope you love all the great new feature in Drafts 5 and want to upgrade, but know not everyone wants to jump on the latest thing right away. People can choose to migrate to Drafts 5 if and when they feel they are ready.
+- **Drafts 5 will be a free download**. Drafts 5 is a free download, with a generous feature set. The free version is a great way to test drive Drafts 5, and will offer full support for creating, editing, syncing of drafts and built-in actions.
 - **Drafts Pro** Advanced features and customizations will be available as part of the optional *Drafts Pro* subscription. This include themes, custom icons, editing of actions, saving workspaces and more. [Full details](/draftspro).
 - *We hope to bring Drafts to the Mac*. A lot of work has been done in the Drafts 5 development cycle to prepare the app to move to the Mac, but we do not have anything to announce at this time.
 
