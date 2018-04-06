@@ -31,7 +31,7 @@ title: Overview for Drafts 4 Users
 
 ### Draft Storage and Organization
 
-- **[Tagging](/drafts/tagging)**. Assign multiple tags to drafts to help stay organized. Tags can be used to filter the draft list and queries - for all inbox, isArchived, flagged drafts - creating project workspaces.
+- **[Tagging](/drafts/tagging)**. Assign multiple tags to drafts to help stay organized. Tags can be used to filter the draft list and queries - for all inbox, archived, flagged drafts.
 - **[Filtering and List Options](/drafts/listoptions)**. The inbox, archive, flagged and trash folder can be filtered by one or more tags, or display untagged drafts to create virtual workspaces for projects. Multiple workspaces can be save and retrieved.
 - **[Workspaces](/drafts/workspaces)**. {% include pro.html %}
 - **[Focus mode](/editor/focusmode)**. One of Drafts key feature is always opening to a new draft, but sometimes it's useful to temporarily disable new draft creation when you are working on a longer draft, or processing a series of drafts. When focus mode is enabled, will always return to the last edited draft, and "After success" actions will open the next draft rather than a new one, to allow quickly processing a series of drafts without having to re-open them one at a time from the draft list.
@@ -45,7 +45,7 @@ title: Overview for Drafts 4 Users
 - **[Multiple Account Support and Credentials System](/settings/credentials)**. Most services integrated with Drafts now support multiple accounts – including Twitter, Dropbox, OneDrive, Google Drive. Have home and work accounts? No problem.
 - **Improved support for Workflow and Callback URL**. New action steps can wait for results from callback URLs or Workflow, and incorporate those results in the action.
 - **[New Action Steps](/actions/steps/)**: WebDAV support, Insert text, with more coming.
-- **[New Action Directory](/actions/actiondirectory)**. Significantly improved sharing of actions through the Action Directory. The directory now supports updating and removing your shared items, and posting of action groups and well as individual actions.
+- **[New Action Directory](/actions/actiondirectory)**. Significantly improved sharing of actions through the Action Directory. The directory now supports updating and removing your shared items, and posting of action groups as well as individual actions.
 
 ### Apple Watch
 
