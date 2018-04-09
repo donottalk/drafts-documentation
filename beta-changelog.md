@@ -2,6 +2,19 @@
 title: Changelog – Beta Version
 ---
 
+#### v0.9.1.11
+
+- **Change:** Make "Archive" the default swipe action when swiping on an inbox draft in draft list. Trash remains default swipe action if the draft is archived already.
+- **Fix:** Auto-layout issue causing misplaced text in drafts list after drawer animation.
+- **Change:** Better handling of line anchors in regex find and replace.
+- **Fix:** A few tweaks to Dropbox action step upload process.
+- **Fix:** Change to the way focus mode drafts are loaded on a cold start to prevent touching the accessed date.
+- **Fix:** Don't dismiss presented view returning to app...e.g., action editing screens, etc.
+- **Fix:** Cancelling an action list dismissal gesture with list pinned did not reflow text properly.
+- **Fix:** Draft content not updated for action if action run from the pinned action list with keyboard visible.
+- **Fix:** Running insertText action from action list would not immediately update draft content to match visible changes in the editor.
+- **Fix:** Change the languageGrammar of the current draft from script would not force redrawing of content to match new selection.
+
 #### v0.9.1.9
 
 - **New:** Select > Operations > Run Action is back in drafts list.

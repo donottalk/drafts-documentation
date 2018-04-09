@@ -6,12 +6,12 @@ title: Overview for Drafts 4 Users
 
 *New to Drafts? You might want to [start at the home page](/). This page intended to a answer questions existing users of Drafts 4 may have about the Drafts 5 release.*
 
-### The Business Bits
+### About Drafts 5
 
 - **Drafts 5 is being released as a new app**. Drafts 5 does not replace Drafts 4, but install along side it. Drafts 5 can migrate drafts, actions and keyboard customizations from Drafts 4, but data does not sync between the two apps and they can happily co-exist on the same device.
 - **Drafts 4 will continue to be supported and available**. Drafts 4 will remain in the App Store and be supported at this time. We hope you love all the great new feature in Drafts 5 and want to upgrade, but know not everyone wants to jump on the latest thing right away. People can choose to migrate to Drafts 5 if and when they feel they are ready.
 - **Drafts 5 will be a free download**. Drafts 5 is a free download, with a generous feature set. The free version is a great way to test drive Drafts 5, and will offer full support for creating, editing, syncing of drafts and built-in actions.
-- **Drafts Pro** Advanced features and customizations will be available as part of the optional *Drafts Pro* subscription. This include themes, custom icons, editing of actions, saving workspaces and more. [Full details](/draftspro).
+- **Drafts Pro**. Advanced features and customizations will be available as part of the optional *Drafts Pro* subscription. This include themes, custom icons, editing of actions, saving workspaces and more. [Full details](/draftspro).
 - *We hope to bring Drafts to the Mac*. A lot of work has been done in the Drafts 5 development cycle to prepare the app to move to the Mac, but we do not have anything to announce at this time.
 
 ### Editor and Interface
@@ -34,7 +34,7 @@ title: Overview for Drafts 4 Users
 - **[Tagging](/drafts/tagging)**. Assign multiple tags to drafts to help stay organized. Tags can be used to filter the draft list and queries - for all inbox, archived, flagged drafts.
 - **[Filtering and List Options](/drafts/listoptions)**. The inbox, archive, flagged and trash folder can be filtered by one or more tags, or display untagged drafts to create virtual workspaces for projects. Multiple workspaces can be save and retrieved.
 - **[Workspaces](/drafts/workspaces)**. {% include pro.html %}
-- **[Focus mode](/editor/focusmode)**. One of Drafts key feature is always opening to a new draft, but sometimes it's useful to temporarily disable new draft creation when you are working on a longer draft, or processing a series of drafts. When focus mode is enabled, will always return to the last edited draft, and "After success" actions will open the next draft rather than a new one, to allow quickly processing a series of drafts without having to re-open them one at a time from the draft list.
+- **[Focus mode](/editor/focusmode)**. One of Drafts' key features is always opening to a new draft, but sometimes it's useful to temporarily disable new draft creation when you are working on a longer draft, or processing a series of drafts. When focus mode is enabled, Drafts always return to the last edited draft, and "After success" actions will open the next draft rather than a new one, to allow quickly processing a series of drafts without having to re-open them one at a time from the draft list.
 - **Next-Previous navigation**. Via buttons or keyboard shortcuts, easily move to the next or previous draft for quick processing.
 - **More efficient, fast iCloud sync**. Sync has now been expanded to many user settings as well.
 - **[Automated Backup](/settings/backups)**. On-demand or automated periodic backup of drafts and action groups to iCloud Drive.
