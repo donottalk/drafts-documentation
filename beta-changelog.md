@@ -2,6 +2,16 @@
 title: Changelog – Beta Version
 ---
 
+#### v0.9.1.13
+
+- **Fix:** Some issues authenticating to Evernote, especially for Evernote-China.
+- **Change:** Roll back default swipe action on draft to trashing for now. May make it a setting later.
+- **Fix:** Append-prepend to Dropbox would not create the file if it did not already exist. Regression from Dropbox updates in .11.
+
+#### v0.9.1.12
+
+- **New:** Better logging of script errors, with line/column numbers.
+
 #### v0.9.1.11
 
 - **Change:** Make "Archive" the default swipe action when swiping on an inbox draft in draft list. Trash remains default swipe action if the draft is archived already.

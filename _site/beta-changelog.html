@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=f6a61b5f88ae2c86358ad81fc687c339c6f692bb">
+    <link rel="stylesheet" href="/assets/css/style.css?v=aa8b67e631481d52c90d09c86df906f25ab8ef72">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -83,7 +83,36 @@
         </div>
 
         <div class="content">
-          <h4 id="v0919">v0.9.1.9</h4>
+          <h4 id="v09113">v0.9.1.13</h4>
+
+<ul>
+  <li><strong>Fix:</strong> Some issues authenticating to Evernote, especially for Evernote-China.</li>
+  <li><strong>Change:</strong> Roll back default swipe action on draft to trashing for now. May make it a setting later.</li>
+  <li><strong>Fix:</strong> Append-prepend to Dropbox would not create the file if it did not already exist. Regression from Dropbox updates in .11.</li>
+</ul>
+
+<h4 id="v09112">v0.9.1.12</h4>
+
+<ul>
+  <li><strong>New:</strong> Better logging of script errors, with line/column numbers.</li>
+</ul>
+
+<h4 id="v09111">v0.9.1.11</h4>
+
+<ul>
+  <li><strong>Change:</strong> Make “Archive” the default swipe action when swiping on an inbox draft in draft list. Trash remains default swipe action if the draft is archived already.</li>
+  <li><strong>Fix:</strong> Auto-layout issue causing misplaced text in drafts list after drawer animation.</li>
+  <li><strong>Change:</strong> Better handling of line anchors in regex find and replace.</li>
+  <li><strong>Fix:</strong> A few tweaks to Dropbox action step upload process.</li>
+  <li><strong>Fix:</strong> Change to the way focus mode drafts are loaded on a cold start to prevent touching the accessed date.</li>
+  <li><strong>Fix:</strong> Don’t dismiss presented view returning to app…e.g., action editing screens, etc.</li>
+  <li><strong>Fix:</strong> Cancelling an action list dismissal gesture with list pinned did not reflow text properly.</li>
+  <li><strong>Fix:</strong> Draft content not updated for action if action run from the pinned action list with keyboard visible.</li>
+  <li><strong>Fix:</strong> Running insertText action from action list would not immediately update draft content to match visible changes in the editor.</li>
+  <li><strong>Fix:</strong> Change the languageGrammar of the current draft from script would not force redrawing of content to match new selection.</li>
+</ul>
+
+<h4 id="v0919">v0.9.1.9</h4>
 
 <ul>
   <li><strong>New:</strong> Select &gt; Operations &gt; Run Action is back in drafts list.</li>
@@ -1059,9 +1088,10 @@
               <img src="/images/appstore.svg" %>
             </a>
           </div>
-            Drafts is a registered Trademark of Agile Tortoise, Inc.<br>
-            &copy; 2012-2018 by <a href="https://agiletortoise.com/">Agile Tortoise, Inc.</a><br>
-            <a href="https://agiletortoise.com/privacy-policy">Privacy</a> | <a href="https://agiletortoise.com/terms">Terms</a>
+          <a href="/press-kit">Press Kit</a><br>
+          Drafts is a registered Trademark of Agile Tortoise, Inc.<br>
+          &copy; 2012-2018 by <a href="https://agiletortoise.com/">Agile Tortoise, Inc.</a><br>
+          <a href="https://agiletortoise.com/privacy-policy">Privacy</a> | <a href="https://agiletortoise.com/terms">Terms</a>
         </div>
     </div>
 </div>
