@@ -6,6 +6,13 @@ title: Migrating from Drafts 4
 
 Drafts 5 installs as a new, separate app. Migration will not affect your installation of Drafts 4. Both operate independently. Drafts and actions do not sync between versions, but they can be migrated from Drafts 4 to Drafts 5 at any time. It is up to you to decide when you are ready to migrate Drafts 4 data to Drafts 5.
 
+<div class="callout">
+<h2>Skip the details...</h2>
+<p>
+Don't want all the details? Just open Drafts 5, go to Settings > Migrate from Drafts 4 to import drafts and actions from Drafts 4.
+</p>
+</div>
+
 #### Migration Notes
 
 - Migration requires Drafts 4.8.5 or greater installed on the device doing the migration.

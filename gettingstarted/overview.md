@@ -6,6 +6,20 @@ title: Overview for Drafts 4 Users
 
 *New to Drafts? You might want to [start at the home page](/). This page intended to a answer questions existing users of Drafts 4 may have about the Drafts 5 release.*
 
+### Screencast
+
+Here's a quick walkthrough of a few of the great new features in Drafts 5:
+
+<div class='pure-g'>
+  <div class='pure-u-1-1 pure-u-md-1-2' style='text-align:center;'>
+    <div style='border:1px solid #ddd;background:#eee;margin:.5em;'>
+      <div class='embed-container'>
+        <iframe src='https://player.vimeo.com/video/263948739' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
 ### About Drafts 5
 
 - **Drafts 5 is being released as a new app**. Drafts 5 does not replace Drafts 4, but install along side it. Drafts 5 can migrate drafts, actions and keyboard customizations from Drafts 4, but data does not sync between the two apps and they can happily co-exist on the same device.

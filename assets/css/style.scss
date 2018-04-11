@@ -76,8 +76,8 @@ The content `<div>` is where all your content goes.
  }
     .header h1 {
         margin: 0.2em 0;
-        font-size: 3em;
-        font-weight: 300;
+        font-size: 2.25em;
+        font-weight: 500;
     }
      .header h2 {
         font-weight: 300;
@@ -285,6 +285,7 @@ div.doc-image {
   img {
     max-width:100%;
   }
+  a { text-decoration: none; }
 }
 
 a.pro {
@@ -334,5 +335,33 @@ div.pro-features {
         }
       }
     }
+  }
+}
+
+/**
+ * Embed
+ */
+ .embed-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
+ }
+ .embed-container iframe, .embed-container object, .embed-container embed {
+   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}
+
+div.callout {
+  border: 1px solid #ddd;
+  background-color: #efefef;
+  padding: .5em 1em;
+  margin: 1em 0;
+
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin: .5em 0;
   }
 }
