@@ -2,19 +2,20 @@
 title: Drafts. Where Text Starts.
 ---
 
-<h2 style='text-align:center;color:maroon;'>Coming April, 2018</h2>
+<h2 style='text-align:center;color:maroon;'>Coming April 18, 2018</h2>
 
-<div style="margin: 1em 3em;font-size: 1.25em;color: #1B477D;font-weight:medium;">
+<div style="margin: 1em 1em;font-size: 1.25em;color: #1B477D;font-weight:medium;">
 Drafts lets you turn text into action – it’s a quick notebook, handy editor, and writing automation tool, all in one.
 </div>
 
 <div class="doc-image">
-  <a href="https://itunes.apple.com/app/id1236254471?ls=1&mt=8">
-    <img src="{{ site.baseurl }}/images/drafts-devices.png" alt="Drafts" style="width:400px;height:271px;"/>
+  <a href="{{ site.app-store-url }}">
+    <img src="{{ site.baseurl }}/images/drafts-devices.png" alt="Drafts"/>
     </a>
 <div>
-  <a href="https://itunes.apple.com/app/id1236254471?ls=1&mt=8">
-    <img src="{{ site.baseurl }}/images/appstore.svg" style='vertical-align:middle;'> <span style="text-decoration:none;font-weight:medium;color:white;background-color:#568CEC;padding:.25em 1em;margin: 1em;font-size: 1em;border-radius: 16px;">FREE DOWNLOAD</span>
+  <a href="{{ site.app-store-url }}">
+    <img src="{{ site.baseurl }}/images/appstore.svg" style='margin: .5em;'><br>
+    <span style="margin:.5em;text-decoration:none;font-weight:medium;color:white;background-color:#568CEC;padding:.25em 1em;margin: 1em;font-size: 1em;border-radius: 16px;">FREE DOWNLOAD</span>
   </a>
 </div>
 </div>

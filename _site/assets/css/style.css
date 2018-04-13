@@ -21,9 +21,9 @@ This is the parent `<div>` that contains the menu and the content area.
 /*
 The content `<div>` is where all your content goes.
 */
-.content { margin: 0 1em; padding: 0 2em; max-width: 700px; margin-bottom: 50px; line-height: 1.6em; }
+.content { margin: 0 1em; padding: 0 1em; max-width: 700px; margin-bottom: 50px; line-height: 1.5em; }
 
-.footer { margin: 0 1em; padding: 0 2em; max-width: 700px; margin-bottom: 50px; line-height: 1.6em; color: #AAA; }
+.footer { margin: 0 1em; padding: 0 2em; max-width: 700px; margin-bottom: 50px; line-height: 1.5em; color: #AAA; }
 
 .header { margin: 0 1em; color: #333; text-align: left; padding: 1em 2em 0; border-bottom: 1px solid #eee; }
 
@@ -102,7 +102,7 @@ small screens.
 /*
 Hides the menu at `48em`, but modify this based on your app's needs.
 */
-@media (min-width: 48em) { .header, .content, .footer { padding-left: 2em; padding-right: 2em; }
+@media (min-width: 48em) { .header, .content, .footer { padding-left: 1em; padding-right: 1em; }
   #layout { padding-left: 150px; /* left col width "#menu" */ left: 0; }
   #menu { left: 150px; }
   .menu-link { position: fixed; left: 150px; display: none; }

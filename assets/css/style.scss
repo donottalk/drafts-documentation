@@ -52,10 +52,10 @@ The content `<div>` is where all your content goes.
 */
 .content {
     margin: 0 1em;
-    padding: 0 2em;
+    padding: 0 1em;
     max-width: 700px;
     margin-bottom: 50px;
-    line-height: 1.6em;
+    line-height: 1.5em;
 }
 
 .footer {
@@ -63,7 +63,7 @@ The content `<div>` is where all your content goes.
     padding: 0 2em;
     max-width: 700px;
     margin-bottom: 50px;
-    line-height: 1.6em;
+    line-height: 1.5em;
     color: #AAA;
 }
 
@@ -242,8 +242,8 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     .header,
     .content,
     .footer {
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     #layout {

@@ -46,7 +46,7 @@ Drafts 5 is new, free app with an optional Pro subscription. Here’s what that 
 * **Pin draft or action lists open on iPad**. On bigger screens, tap the side navigation bar to keep either sidebar open while you type.
 * **[Find and replace][7]**. Search the contents of your draft with find and replace, including regular expression support. [Learn more][7].
 * **Expanded external keyboard support**. Better app navigation and, as always, customizable, assignable hot keys for actions.
-* **[Improved arrange mode][8]**. Re-organize the contents of your draft by arranging the selected lines, or switching things around by blocks or lines.
+* **[Improved arrange mode][8]**. Re-organize the contents of your draft by arranging the selected lines, or switching things around by blocks or lines. Edit text in arrange mode.
 * **Extensive drag and drop support**. Support for dragging text from anywhere and dropping into the app to create drafts, plus dragging directly onto an action in the action list to run an action on that text.
 * **New Themed Share Extension**. The share extension now matches your theme, plus includes settings for syntax-highlighting, TextExpander support, and the option open in Drafts.
 
