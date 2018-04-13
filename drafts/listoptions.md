@@ -14,6 +14,8 @@ Tap on the search field (magnifying glass) in the top to search for drafts conta
 
 ### Tag Filters
 
+{% include doc-image.html src="/drafts/tag-filters.png" %}
+
 Tap the filter button at the top, or swipe to the right on the draft list to show the tag filter sidebar. Tap on one or more tag to filter to the list to show only drafts with those tags. "Show all" to remove tag filters, or use the special "untagged" filter to show only drafts which do not have any tags assigned.
 
 ### Sorting and Display Options

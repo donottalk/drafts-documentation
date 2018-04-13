@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="130px" height="100px" viewBox="0 0 130 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #368FE9;">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>web-banner-bg</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0801630435">
-        <g id="web-banner-bg" fill="#FFFFFF">
-            <polygon id="Combined-Shape" points="23.4356111 100 0 100 42.166417 50.1997811 42.335574 50 42.1695199 49.8038835 0 0 23.4356111 6.48270969e-14 65 49.9980509"></polygon>
-            <polygon id="Combined-Shape" points="67.4356111 100 44 100 86.166417 50.1997811 86.335574 50 86.1695199 49.8038835 44 0 67.4356111 6.48270969e-14 109 49.9980509"></polygon>
-            <polygon id="Combined-Shape" points="110.435611 100 87 100 129.166417 50.1997811 129.335574 50 129.16952 49.8038835 87 0 110.435611 6.48270969e-14 152 49.9980509"></polygon>
-            <polygon id="Combined-Shape" points="-18.5643889 100 -42 100 0.166417037 50.1997811 0.335573976 50 0.16951987 49.8038835 -42 0 -18.5643889 6.48270969e-14 23 49.9980509"></polygon>
-        </g>
-    </g>
-</svg>
+<svg height="100" viewBox="0 0 130 100" width="130" xmlns="http://www.w3.org/2000/svg"><g fill="#fff" fill-rule="evenodd" opacity=".080163"><path d="m23.4356111 100h-23.4356111l42.166417-49.8002189.169157-.1997811-.1660541-.1961165-42.1695199-49.8038835h23.4356111l41.5643889 49.9980509z"/><path d="m67.4356111 100h-23.4356111l42.166417-49.8002189.169157-.1997811-.1660541-.1961165-42.1695199-49.8038835h23.4356111l41.5643889 49.9980509z"/><path d="m110.435611 100h-23.435611l42.166417-49.8002189.169157-.1997811-.166054-.1961165-42.16952-49.8038835h23.435611l41.564389 49.9980509z"/><path d="m-18.5643889 100h-23.4356111l42.16641704-49.8002189.16915694-.1997811-.16605411-.1961165-42.16951987-49.8038835h23.4356111l41.5643889 49.9980509z"/></g></svg>

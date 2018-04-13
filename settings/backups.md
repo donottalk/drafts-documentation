@@ -12,4 +12,4 @@ Backups will be written to the `Drafts5/Backups` folder in your iCloud Drive.  O
 
 If periodic backups are enabled, for either drafts or action groups, these periodic backups will be created in the background, approximately every 7 days - depending on how often you launch and use Drafts.
 
-**NOTE**: _If you enable periodic backups, it is general only needed on one of your devices. For example, if you use Drafts most often on your iPhone, you might enable periodic backup on that device - and NOT on your iPad._
+**Note**: _If you enable periodic backups, it is general only needed on one of your devices. For example, if you use Drafts most often on your iPhone, you might enable periodic backup on that device - and NOT on your iPad._

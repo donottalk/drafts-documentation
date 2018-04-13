@@ -33,9 +33,9 @@ Drafts 5 is a ground-up rewrite of the app, bringing a new features and updates 
 
 #### Screencasts
 
-- **Drafts - Overview**: [Vimeo](https://vimeo.com/263943764)
+- **Drafts - Overview**: [Vimeo](https://vimeo.com/263943764) \| [YouTube](https://youtu.be/tXDlKX0b8GI)
   - A quick introduction to how to use Drafts for quick capture and acting on text.
-- **Drafts - What's New**: [Vimeo](https://vimeo.com/263948739)
+- **Drafts - What's New**: [Vimeo](https://vimeo.com/263948739) \| [YouTube](https://youtu.be/T5vVXrZUGME)
   - A short tour of some highlights of the new Drafts 5 release for people familiar with Drafts.
 
 #### Assets

@@ -7,7 +7,7 @@ title: Migrating from Drafts 4
 Drafts 5 installs as a new, separate app. Migration will not affect your installation of Drafts 4. Both operate independently. Drafts and actions do not sync between versions, but they can be migrated from Drafts 4 to Drafts 5 at any time. It is up to you to decide when you are ready to migrate Drafts 4 data to Drafts 5.
 
 <div class="callout">
-<h2>Skip the details...</h2>
+<h4>Quick Facts</h4>
 <p>
 Don't want all the details? Just open Drafts 5, go to Settings > Migrate from Drafts 4 to import drafts and actions from Drafts 4.
 </p>
@@ -20,7 +20,7 @@ Don't want all the details? Just open Drafts 5, go to Settings > Migrate from Dr
 
 {% include doc-image.html src="/gettingstarted/migration.png" %}
 
-### Migrating Drafts
+### Migrating All Drafts
 
 To migrate all drafts, visit `Settings > Migrate from Drafts 4 > Migrate Drafts`. If Drafts 4 is installed, Drafts 5 will see Drafts 4 data and migration will be available. A preview of the number of drafts to import will appear. Optionally, a tag can be assigned to drafts as they are migrated if you wish to mark the imported drafts for historical purposes. When ready, tap the "Migrate Now" button.
 
@@ -28,7 +28,13 @@ Drafts 5 will maintain inbox, archive, flagged status as well as associated crea
 
 Migration is typically quite fast, but may take a short time to complete if you have a large history of drafts. It is recommended you allow migration to complete before exiting Drafts. Immediately after migration, Drafts will begin syncing data to iCloud. This may take some time as well on a large import, so be patient waiting for new drafts to appear on other devices.
 
-**Note:** If you wish to more selectively move drafts to Drafts 5, the Drafts 4 export feature in `Settings > Export Drafts` can create an export file for only the inbox, for example. If you use this feature, and export as `JSON` format, and select `Open in... > Copy to Drafts 5`, you can import just the selected drafts.
+### Migrating Only Some Drafts
+
+If you do not wish to migrate your entire Drafts history to Drafts 5, but want to move over only some content, you have a couple of options.
+
+First, you can use the  Drafts 4 export feature in `Settings > Export Drafts` can create an export file for only the inbox, for example. If you use this feature, and export as `JSON` format, and select `Open in... > Copy to Drafts 5`, you can import just the selected drafts.
+
+Second, you can individually move select drafts using an action. In Drafts 4, install the [Send to Drafts 5](http://drafts4-actions.agiletortoise.com/a/2Nv) action, and use it to send only the selected draft to Drafts 5.
 
 ### Migrating Actions
 

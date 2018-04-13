@@ -353,12 +353,13 @@ div.pro-features {
 }
 
 div.callout {
-  border: 1px solid #ddd;
+  border: 1px dotted #ccc;
   background-color: #efefef;
+  border-radius: 10px;
   padding: .5em 1em;
   margin: 1em 0;
 
-  h2 {
+  h4 {
     margin: 0;
   }
   p {
