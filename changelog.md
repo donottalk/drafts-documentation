@@ -2,6 +2,6 @@
 title: Changelog
 ---
 
-### 5.0
+### 5.0.2
 
-- Initial public release coming April 2018
+- Initial public release.
