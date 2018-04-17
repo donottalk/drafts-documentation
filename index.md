@@ -8,6 +8,7 @@ title: Drafts. Where Text Starts.
 Drafts lets you turn text into action – it’s a quick notebook, handy editor, and writing automation tool, all in one.
 </div>
 
+
 <div class="doc-image">
   <a href="{{ site.app-store-url }}">
     <img src="{{ site.baseurl }}/images/drafts-devices.png" alt="Drafts"/>

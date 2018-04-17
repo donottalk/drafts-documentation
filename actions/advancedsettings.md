@@ -35,7 +35,7 @@ The notification setting determines whether Drafts will show a banner and confir
 - **Errors**: Only show notifications if an error occurs running the action.
 - **All**: Always show completion confirmation, regardless of success or failure.
 
-#### Log Level
+### Log Level
 
 Actions generate logs of the actions execution which provide useful records of what actions have been performed on a draft, and what (if any) error occurred. These logs are available in the draft detail (i) view. Depending on the type of action, it may make sense not to log the execution of the action. For example, you might not need to know a history of each time you copied the draft to clipboard, or inserted a bold text markup with an action key.  
 
