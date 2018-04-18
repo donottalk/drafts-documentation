@@ -2,12 +2,9 @@
 title: Drafts. Where Text Starts.
 ---
 
-<h2 style='text-align:center;color:maroon;'>Coming April 18, 2018</h2>
-
 <div style="margin: 1em 1em;font-size: 1.25em;color: #1B477D;font-weight:medium;">
 Drafts lets you turn text into action – it’s a quick notebook, handy editor, and writing automation tool, all in one.
 </div>
-
 
 <div class="doc-image">
   <a href="{{ site.app-store-url }}">
@@ -20,6 +17,8 @@ Drafts lets you turn text into action – it’s a quick notebook, handy editor,
   </a>
 </div>
 </div>
+
+<h2 style='text-align:center;color:maroon;margin-bottom:1.5em;'>DRAFTS 4 USER? <a href="/gettingstarted/overview">Find Out What's New!</a></h2>
 
 ## HOW DRAFTS WORKS
 
