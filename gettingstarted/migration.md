@@ -43,6 +43,7 @@ A few things to know before migrating actions and keys from Drafts 4:
 - Drafts 4 had a single extended keyboard row which is configured separately from actions. In Drafts 5, the extended keyboard is built from action groups. As a result, migration of the custom keyboard row will create a new action group with the migrated keys.
 - Drafts 5 supports many new, more powerful actions, however, not all actions available in Drafts 4 can be supported in Drafts 5. Migration will make note of the number of actions which could not be migrated. In these cases, check the Action Directory for similar replacements, or contact support for assistance.
 - If you want to use Drafts 5, but rely on some actions not available in Drafts 5 at this time, Drafts 5 can also call actions in Drafts 4. See instructions below.
+- Action migration will only migrate groups. If you have actions in Drafts 4 that are not assigned to a group (the tabs at the top in Drafts 4), and only shows in the "All" tab, it will not be automatically migrated.
 
 ### Migrating Action Groups and Keys
 
