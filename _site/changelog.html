@@ -96,7 +96,27 @@
         </div>
 
         <div class="content">
-          <h3 id="502">5.0.2</h3>
+          <h3 id="503">5.0.3</h3>
+
+<ul>
+  <li><strong>New:</strong> Better drag and drop in action list. Actions can now be dragged between groups by switching group tabs, and also dropped on a different group in the group list to move them.</li>
+  <li><strong>Fix:</strong> Automatic theme change would loose cursor position and not update keyboard appearance.</li>
+  <li><strong>Fix:</strong> Rework implementation of “Insert text” to be faster and work better with TextExpander snippets.</li>
+  <li><strong>Fix:</strong> Better updating of app badge when background sync completes or Siri creates draft.</li>
+  <li><strong>Fix:</strong> [[selection]] tag not return correct result when selection was at very end of draft.</li>
+  <li><strong>Fix:</strong> If a query was left in the draft list search field, it would get restored on a cold start of the app, but the not show in the search text in the text box making you wonder where all your drafts went.</li>
+  <li><strong>Fix:</strong> Changes to tags made in scripting might not save if the action had after success setting.</li>
+  <li><strong>Fix:</strong> Share extension might not immediately unlock pro features when subscription is initiated.</li>
+  <li><strong>Fix:</strong> Clear button in recent tag suggestions would not stay in scrollable view.</li>
+  <li><strong>Fix:</strong> Make sure custom template tags generated in an action are cleared when action is finished running.</li>
+  <li><strong>Fix:</strong> Remove some overhead from scripts which manipulate editor selections to prevent some race conditions with the selection when actions are run quickly, repeatedly, like from a keyboard shortcut.</li>
+  <li><strong>Fix:</strong> Case where bad tag filter could get applied to draft list after launching to search from widget.</li>
+  <li><strong>Fix:</strong> Changing syntax highlighting for draft without making any other changes to draft did not save change.</li>
+  <li><strong>Fix:</strong> Add “after success” label in group editing.</li>
+  <li><strong>Fix:</strong> Scripting theme change should require Pro subscription.</li>
+</ul>
+
+<h3 id="502">5.0.2</h3>
 
 <ul>
   <li>Initial public release.</li>
