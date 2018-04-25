@@ -31,7 +31,7 @@ Tap "Manage" in the group list, or use the edit button in the keyboard selection
 - **Share to Action Directory** {% include pro.html %}
   - Use to share, update or remove a listing for this group in the [Action Directory](/actions/actiondirectory)
 
-
 #### Related Topics
 
 - [Advanced Action Settings](/actions/advancedsettings)
+- [Action List Options](/actions/action-list-options)

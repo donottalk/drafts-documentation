@@ -7,19 +7,19 @@
     <meta name="apple-itunes-app" content="app-id=1236254471, affiliate-data=at=11l4Cf&amp;ct=web_banner">
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Templates and Tags | Drafts</title>
-<meta property="og:title" content="Templates and Tags" />
+<title>Action List Options | Drafts</title>
+<meta property="og:title" content="Action List Options" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/actions/templates.html" />
-<meta property="og:url" content="http://localhost:4000/actions/templates.html" />
+<link rel="canonical" href="http://localhost:4000/actions/action-list-options.html" />
+<meta property="og:url" content="http://localhost:4000/actions/action-list-options.html" />
 <meta property="og:site_name" content="Drafts" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@draftsapp" />
 <meta property="article:publisher" content="https://www.facebook.com/draftsapp" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/templates.html","publisher":null,"image":null,"headline":"Templates and Tags","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/action-list-options.html","publisher":null,"image":null,"headline":"Action List Options","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <meta property="og:image" content="http://getdrafts.com/images/drafts-ogimage.png" />
@@ -92,7 +92,7 @@
 
     <div id="main">
         <div class="header">
-            <h1>Templates and Tags</h1>
+            <h1>Action List Options</h1>
         </div>
 
         <div class="content">
@@ -100,58 +100,25 @@
   <a href="/actions">&lt; Actions</a>
 </div>
 
-<p>Drafts has a lightweight template engine to allow control over how text is output in action steps.  Templates are used for most values in action steps, so can be used to not only create the content of an exported file, or mail message, but to dynamically create the file name and folder, assign tags, insert timestamps and more, when an action is run.</p>
+<p>Action list options are available using the “…” button in the top right of the action list.</p>
 
-<h3 id="content-tags">Content Tags</h3>
+<p>In this view you can enable quick access tabs to display tabs of all available action groups at the bottom of the action list for easy access.</p>
 
-<ul>
-  <li><code class="highlighter-rouge">[[draft]]</code> The full text of the draft.</li>
-  <li><code class="highlighter-rouge">[[title]]</code> The first line of the draft only.</li>
-  <li><code class="highlighter-rouge">[[safe_title]]</code> File name safe version of the first line with white-space and punctuation characters removed.</li>
-  <li><code class="highlighter-rouge">[[body]]</code> The remainder of the draft text after the first line is removed.</li>
-  <li><code class="highlighter-rouge">[[selection]]</code> If text was selected within the draft before selecting an action, this tag will return only that selected text. If no text was selected, it will return the full text of the draft.</li>
-  <li><code class="highlighter-rouge">[[tags]]</code> Comma-separated list of tags linked to the draft.</li>
-  <li><code class="highlighter-rouge">[[line|n]]</code> The text of a specific line number in the draft, where “n” is the line number. i.e. <code class="highlighter-rouge">[[line|1]]</code>, <code class="highlighter-rouge">[[line|2]]</code>.</li>
-  <li><code class="highlighter-rouge">[[line|n..n]]</code> In addition to specific lines, the lines tag (above) can accept ranges of lines, such as <code class="highlighter-rouge">[[line|2..5]]</code> for lines 2 through 5. This initial or trailing number in the range can be omitted to indicate the beginning or end, i.e. <code class="highlighter-rouge">[[line|2..]]</code> is line 2 through the end of the draft, <code class="highlighter-rouge">[[line|..4]]</code> is the first for lines of the draft.</li>
-  <li><code class="highlighter-rouge">[[selection_start]]</code> The integer index of the start location of the last text selection in the draft.</li>
-  <li><code class="highlighter-rouge">[[selection_length]]</code> The number of characters in the last text selection in the draft.</li>
-</ul>
+<div class="doc-image">
+<img src="/images/docs/actions/action-groups-quick-access.png" alt="" />
+</div>
 
-<h3 id="identifier-tags">Identifier Tags</h3>
+<h3 id="options">Options</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">[[uuid]]</code> A unique identifier for the current draft.</li>
-  <li><code class="highlighter-rouge">[[draft_open_url]]</code> A URL which can be used as a bookmark to open Drafts and select the current draft.</li>
-</ul>
-
-<h3 id="dates-and-locations">Dates and Locations</h3>
-
-<ul>
-  <li><code class="highlighter-rouge">[[date]]</code> Timestamp in the format YYYY-MM-DD.</li>
-  <li><code class="highlighter-rouge">[[date|format]]</code> Timestamp, formatted based on a custom strfime format string. For example <code class="highlighter-rouge">[[date|%m-%d-%Y]]</code> becomes “01–02–2013”.</li>
-  <li><code class="highlighter-rouge">[[created|format]]</code> Same as “date”, but returns the timestamp for the creation of the draft, rather than the current time.</li>
-  <li><code class="highlighter-rouge">[[modified|format]]</code> Same as “date”, but returns the timestamp for the last modification date of the draft content, rather than the current time.</li>
-  <li><code class="highlighter-rouge">[[longitude]]</code> The current device location longitude.</li>
-  <li><code class="highlighter-rouge">[[latitude]]</code> The current device location latitude.</li>
-  <li><code class="highlighter-rouge">[[created_longitude]]</code> The location longitude where the draft was created.</li>
-  <li><code class="highlighter-rouge">[[created_latitude ]]</code> The location latitude where the draft was created.</li>
-  <li><code class="highlighter-rouge">[[modified_longitude]]</code> The location longitude where the content of the draft was last modified.</li>
-  <li><code class="highlighter-rouge">[[modified_latitude]]</code> The location latitude where the content of the draft was last modified.</li>
-  <li><code class="highlighter-rouge">[[time]]</code> Timestamp in the format YYYY-MM-DD-HH-MM-SS.</li>
-</ul>
-
-<h3 id="utility-tags">Utility Tags</h3>
-
-<ul>
-  <li><code class="highlighter-rouge">[[clipboard]]</code> The current contents of the iOS clipboard.</li>
-</ul>
-
-<h2 id="other-special-markup">Other Special markup</h2>
-
-<ul>
-  <li><code class="highlighter-rouge">{{ }}</code> Wrap text in double-curly brackets to have the text URL encoded.</li>
-  <li><code class="highlighter-rouge">%% %%</code> Wrap text in double percent signs to run the enclosed text through the Markdown engine and convert it to HTML.  This is useful to export Markdown to HTML, use in HTML Preview steps or other purposes.</li>
-  <li><code class="highlighter-rouge">&lt;&lt;snippet-abbreviation&gt;&gt;</code> A valid <a href="https://textexpander.com">TextExpander</a> abbreviation wrapped in double brackets will be expanded at runtime.</li>
+  <li><strong>Show quick access tabs</strong>: If enabled, a scrollable row of available action groups will be displayed as tabs at the bottom of the action list. These tabs can be tapped for quick access to the groups.</li>
+  <li><strong>Display mode</strong>: Select how to display identification information in the quick access tabs
+    <ul>
+      <li><em>Icon &amp; Name</em></li>
+      <li><em>Icon</em></li>
+      <li><em>Name</em></li>
+    </ul>
+  </li>
 </ul>
 
         </div>

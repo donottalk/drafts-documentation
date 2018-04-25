@@ -16,6 +16,7 @@ Each action consists settings which control the display and behavior of the acti
 
 - [Action Groups](/actions/actiongroups)
 - [Configuring Actions]({{ site.baseurl }}/actions/actions)
+- [Action List Options](/actions/action-list-options)
 - [Advanced Action Settings]({{ site.baseurl }}/actions/advancedsettings)
 - [Action Directory]({{ site.baseurl }}/actions/actiondirectory)
 
