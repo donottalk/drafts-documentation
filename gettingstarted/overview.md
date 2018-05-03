@@ -86,7 +86,6 @@ Drafts 5 is new, free app with an optional Pro subscription. Here’s what that 
 	* *Box*: Files can be created, append and prepend to Box using the new WebDAV action step and [Box's WebDAV support][21], or via Export steps and the File.app Box integration. There is not currently a "Box" dedicated action step.
 	* *Event action step*: Calendar events can be create via scripting, or third party app integrations (like Fantastical), but there is not currently an equivalent to the Drafts 4 "Event" action.
 	* *Path and Google Plus*: These social media networks no longer have dedicated action steps.
-* **iMessages app is not available**: We are likely to restore this functionality soon, but the iMessages app was not ready in time for the initial release.
 
 [1]: http://getdrafts.com/
 [2]: http://getdrafts.com/draftspro

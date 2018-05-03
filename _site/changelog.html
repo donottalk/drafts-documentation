@@ -74,6 +74,7 @@
                 <li class="pure-menu-item"><a href="/editor" class="pure-menu-link">Editor</a></li>
                 <li class="pure-menu-item"><a href="/actions" class="pure-menu-link">Actions</a></li>
                 <li class="pure-menu-item"><a href="/watch" class="pure-menu-link">Apple Watch</a></li>
+                <li class="pure-menu-item"><a href="/messages" class="pure-menu-link">iMessage</a></li>
                 <li class="pure-menu-item"><a href="/scripting" class="pure-menu-link">Scripting</a></li>
                 <li class="pure-menu-item"><a href="/settings" class="pure-menu-link">Settings</a></li>
                 <li class="pure-menu-item"><a href="/urls" class="pure-menu-link">URL Schemes</a></li>
@@ -96,7 +97,36 @@
         </div>
 
         <div class="content">
-          <h3 id="503">5.0.3</h3>
+          <h3 id="504">5.0.4</h3>
+
+<ul>
+  <li><strong>New:</strong> iMessages app is back and better than ever. With tag filtering, it makes it really easy to use Drafts as a snippet library to insert text into Messages. <a href="/messages">More information</a></li>
+  <li><strong>New:</strong> Inbox/Flagged/Archive/Trash tabs in draft list now support drag and drop. Drag drafts from list onto them to move them (or assign flags).</li>
+  <li><strong>New:</strong> “Inbox default swipe action” setting in “…” options of draft list. Allow changing of the default behavior of a full swipe on a draft in the inbox between “Archive” and “Trash”. Default is “Archive”.</li>
+  <li><strong>New:</strong> External keyboard shortcuts for cancel (cmd-.) and continue (cmd-return) options in HTML Previews.</li>
+  <li><strong>New:</strong> Improvements to drafts selection screen, which is used in iMessages, the Share extension and the <code class="highlighter-rouge">app.selectDraft()</code> method. Can now be filtered by a tag and archive can be browsed. Sometime down the road it will get better filtering, but this will do for now.</li>
+  <li><strong>New:</strong> Twitter action now logs URL for tweet in action log when successful in the action log. - <strong>New:</strong> <code class="highlighter-rouge">Twitter</code> script object with <code class="highlighter-rouge">updateStatus(string)</code> method to post a tweet, returns bool success value. Details in scripting reference. <a href="https://github.com/agiletortoise/drafts-documentation/wiki/Twitter">Details</a></li>
+  <li>
+    <p><strong>New:</strong> <code class="highlighter-rouge">editor.deactivate();</code> script method to resign focus - opposite of existing <code class="highlighter-rouge">editor.activate();</code> method</p>
+  </li>
+  <li><strong>Change:</strong> Update MultiMarkdown from 6.0 to 6.3.2 to incorporate latest fixes/updates. Includes a few bugs rendering tables w/o opening closing pipe characters and with maintaining indents in code blocks.</li>
+  <li><strong>Change:</strong> Improve margin calculations to better optimize readable line lengths, especially on the big iPads.</li>
+  <li><strong>Change:</strong> Use Safari View Controller in-app to open http links in Link mode.</li>
+  <li><strong>Change:</strong> Improved refresh of processed updates when viewing a draft on Apple Watch.</li>
+  <li><strong>Change:</strong> Improve visibility in Workspaces Today widget.</li>
+  <li><strong>Change:</strong> A few tweaks to Evernote login process to try to fix login for some in China - this may or may not help users seeing these issues, please report back.</li>
+  <li>
+    <p><strong>Change:</strong> Some improvements for migrating actions from Drafts 4.</p>
+  </li>
+  <li><strong>Fix:</strong> <code class="highlighter-rouge">editor.undo()</code>, <code class="highlighter-rouge">editor.redo()</code> were not working properly.</li>
+  <li><strong>Fix:</strong> Maintain position of quick access tabs (both Workspace and Action Groups) after selecting new tab.</li>
+  <li><strong>Fix:</strong> Text could go behind keyboard row on iPhone X with external keyboard connected. - <strong>Fix:</strong> Crash accessing App Store with poor network connectivity.</li>
+  <li><strong>Fix:</strong> Clean up a few crashes calling Javascript methods is bad arguments.</li>
+  <li><strong>Fix:</strong> Do not allow edit of name in current list options workspace.</li>
+  <li><strong>Fix:</strong> VoiceOver issues with tag selection and editing.</li>
+</ul>
+
+<h3 id="503">5.0.3</h3>
 
 <ul>
   <li><strong>New:</strong> Better drag and drop in action list. Actions can now be dragged between groups by switching group tabs, and also dropped on a different group in the group list to move them.</li>
