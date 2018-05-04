@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+#### 5.0.5
+
+- **New:** Full access to Twitter API via Twitter object `request` method. Drafts will handle the OAuth, and you can make any valid calls against the Twitter API. [Details on methods in scripting documentation](http://reference.getdrafts.com/objects/Twitter.html). Same actions, like a Tweet Storm example, in the [Twitter integration guide](https://forums.getdrafts.com/t/using-twitter-with-drafts/109).
+- **Fix:** Refactor animation to avoid oddball case where the side panels could get stuck when the cursor was in certain positions with certain content in a draft.
+- **Fix:** Threading issue scripting twitter updateStatus calls.
+- **New:** Inbox/Flagged/Archive/Trash tabs now support drag and drop. Draft drafts from list onto them to move them (or assign flags).
+
 ### 5.0.4
 
 - **New:** iMessages app is back and better than ever. With tag filtering, it makes it really easy to use Drafts as a snippet library to insert text into Messages. [More information](/messages)

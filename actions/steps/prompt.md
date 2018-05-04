@@ -4,7 +4,7 @@ title: Action Step – Prompt
 
 {% include back.html title="Action Steps" path="/actions/steps" %}
 
-Display a prompt with buttons and optional a text input field.  The results of the prompt are placed in a template tags for use in subsequent action steps.  More advanced prompts are possible with [the prompt script object](https://github.com/agiletortoise/drafts-documentation/wiki/Prompt) as well.
+Display a prompt with buttons and optional a text input field.  The results of the prompt are placed in a template tags for use in subsequent action steps.  More advanced prompts are possible with [the prompt script object](http://reference.getdrafts.com/objects/Prompt) as well.
 
 #### Options
 

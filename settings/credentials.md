@@ -10,7 +10,7 @@ Some services accessed via Drafts actions require authentication. In these cases
 
 In most cases, these services use [OAuth](https://en.wikipedia.org/wiki/OAuth) and you will be redirected to the website for the service to provide your login and authorize Drafts. Drafts will store the token provided in these cases, and you will not need to enter your username and password directly in Drafts.
 
-Some action may also prompt for credentials to be entered directly in Drafts. Action steps (like [WebDAV]({{ site.baseurl }}/actions/steps/webdav)), or scripted actions which use the [Credential](https://github.com/agiletortoise/drafts-documentation/wiki/Credential) object, may prompt for input of credential information on first run as well.
+Some action may also prompt for credentials to be entered directly in Drafts. Action steps (like [WebDAV]({{ site.baseurl }}/actions/steps/webdav)), or scripted actions which use the [Credential](http://reference.getdrafts.com/objects/Credential) object, may prompt for input of credential information on first run as well.
 
 To log out of a service, visit *Settings > Credentials* in Drafts, and "Forget" the account you wish to remove.  If you use an action requiring this service again, you will be prompted to re-authenticate.  When a service is forgotten, all saved data related to that service is removed from your Drafts installation and iCloud. To login again, simply run an action using that service again and you will be prompted to authenticate.
 

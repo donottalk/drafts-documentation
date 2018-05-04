@@ -2,6 +2,19 @@
 title: Changelog – Beta Version
 ---
 
+#### 5.0.5.2
+
+- **Fix:** Refactor animation to avoid oddball case where the side panels could get stuck when the cursor was in certain positions with certain content in a draft.
+
+#### 5.0.5.1
+
+- **New:** Full access to Twitter API via Twitter object "request" method. Full docs on the way.
+- **Fix:** Threading issue scripting twitter updateStatus calls.
+
+#### 5.0.4.4
+
+- **New:** Inbox/Flagged/Archive/Trash tabs now support drag and drop. Draft drafts from list onto them to move them (or assign flags).
+
 #### 5.0.4.3
 
 - **New:** "Inbox default swipe action" setting in "..." options of draft list. Allow changing of the default behavior of a full swipe on a draft in the inbox between "Archive" and "Trash". Default is "Archive".
