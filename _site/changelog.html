@@ -32,7 +32,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=addf3203bf2fbbe19429200615cb3722d603847a">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c408c8cc3ebc40374c1a70c70f10c4d5a4b7e1c2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -75,7 +75,7 @@
                 <li class="pure-menu-item"><a href="/actions" class="pure-menu-link">Actions</a></li>
                 <li class="pure-menu-item"><a href="/watch" class="pure-menu-link">Apple Watch</a></li>
                 <li class="pure-menu-item"><a href="/messages" class="pure-menu-link">iMessage</a></li>
-                <li class="pure-menu-item"><a href="/scripting" class="pure-menu-link">Scripting</a></li>
+                <li class="pure-menu-item"><a href="http://reference.getdrafts.com/" class="pure-menu-link">Scripting</a></li>
                 <li class="pure-menu-item"><a href="/settings" class="pure-menu-link">Settings</a></li>
                 <li class="pure-menu-item"><a href="/urls" class="pure-menu-link">URL Schemes</a></li>
                 <li class="pure-menu-item"><a href="/changelog" class="pure-menu-link">Changelog</a></li>
@@ -97,7 +97,16 @@
         </div>
 
         <div class="content">
-          <h3 id="504">5.0.4</h3>
+          <h4 id="505">5.0.5</h4>
+
+<ul>
+  <li><strong>New:</strong> Full access to Twitter API via Twitter object <code class="highlighter-rouge">request</code> method. Drafts will handle the OAuth, and you can make any valid calls against the Twitter API. <a href="http://reference.getdrafts.com/objects/Twitter.html">Details on methods in scripting documentation</a>. Same actions, like a Tweet Storm example, in the <a href="https://forums.getdrafts.com/t/using-twitter-with-drafts/109">Twitter integration guide</a>.</li>
+  <li><strong>Fix:</strong> Refactor animation to avoid oddball case where the side panels could get stuck when the cursor was in certain positions with certain content in a draft.</li>
+  <li><strong>Fix:</strong> Threading issue scripting twitter updateStatus calls.</li>
+  <li><strong>New:</strong> Inbox/Flagged/Archive/Trash tabs now support drag and drop. Draft drafts from list onto them to move them (or assign flags).</li>
+</ul>
+
+<h3 id="504">5.0.4</h3>
 
 <ul>
   <li><strong>New:</strong> iMessages app is back and better than ever. With tag filtering, it makes it really easy to use Drafts as a snippet library to insert text into Messages. <a href="/messages">More information</a></li>
