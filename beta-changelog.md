@@ -2,6 +2,25 @@
 title: Changelog – Beta Version
 ---
 
+#### 5.1.0.3
+
+- **Change:** Better error reporting when file imports fail for some reason.
+- **Fix:** Workaround dark theme tinting of the system file import view.
+- **Fix:** Do not allow external keyboard shortcuts to interfere with arrow keys while editing search fields.
+
+#### 5.1.0.2
+
+- **New:** Box action step to create, append, prepend to files in Box.com service. [Docs and Examples](/actions/steps/box)
+- **New:** `Box` script object to read and write files to Box.com service. [Docs](http://beta-reference.getdrafts.com/objects/Box.html)
+- **New:** Support traditional table edit mode for better VoiceOver experience.
+- **Fix:** Improve frequency of updates to app badge.
+
+#### 5.1.0.1
+
+- **New:** Workspaces and tag filter now support All/Any mode selection to switch between filtering multiple tags in boolean and / or modes.
+- **New:** "Open in..." action step to support old-style document interaction export. [Docs and Examples](/actions/steps/openin)
+- **New:** Ability to disable/enable and duplicate action steps. Handy for WIP step modifications and variants.
+
 #### 5.0.5.2
 
 - **Fix:** Refactor animation to avoid oddball case where the side panels could get stuck when the cursor was in certain positions with certain content in a draft.
