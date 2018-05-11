@@ -2,6 +2,15 @@
 title: Changelog – Beta Version
 ---
 
+#### 5.1.0.4
+
+- **New:** `Calendar` object now has some additional options:
+    -  `events(startDate, endDate);` method to query the contents of a calendar. Returns an array of `Event` objects.
+    - `Calendar.default` property which returns the system default calendar for new events.
+    - `find(title)` method looks up a calendar by name.
+    - `Calendar.getAllCalendars();` returns array of all known calendars on the device.
+    - [Docs](http://beta-reference.getdrafts.com/objects/Calendar.html)
+    
 #### 5.1.0.3
 
 - **Change:** Better error reporting when file imports fail for some reason.
