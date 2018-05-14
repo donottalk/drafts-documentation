@@ -8,7 +8,7 @@ Create a calendar event using system event editor.
 
 #### Examples
 
-
+- [Event](https://actions.getdrafts.com/a/1Ia)
 
 #### Options
 
