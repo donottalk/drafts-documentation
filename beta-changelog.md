@@ -2,6 +2,12 @@
 title: Changelog – Beta Version
 ---
 
+#### 5.1.0.5
+
+- **New:** Event action step returns for creating calendar events with default system card. [Docs](http://getdrafts.com/actions/steps/event)
+- **New:** `event.edit()` method. Displays a `Event` object in the system event editing card. Allows scripting to create modify the default values for the event (start/end, add alarms, etc.) then display the event for modification/editing and adding to the calendar. [Docs](http://beta-reference.getdrafts.com/objects/Event.html)
+- **Fix:** Better restore of text selections when undo/redo are used.
+
 #### 5.1.0.4
 
 - **New:** `Calendar` object now has some additional options:
@@ -10,7 +16,7 @@ title: Changelog – Beta Version
     - `find(title)` method looks up a calendar by name.
     - `Calendar.getAllCalendars();` returns array of all known calendars on the device.
     - [Docs](http://beta-reference.getdrafts.com/objects/Calendar.html)
-    
+
 #### 5.1.0.3
 
 - **Change:** Better error reporting when file imports fail for some reason.
