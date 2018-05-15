@@ -32,7 +32,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=83428a60efcf44595bb84ae47c6def362d653546">
+    <link rel="stylesheet" href="/assets/css/style.css?v=50e983a48826124f48fbc804955c4a3e5a8e9a71">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -97,7 +97,66 @@
         </div>
 
         <div class="content">
-          <h4 id="5052">5.0.5.2</h4>
+          <h4 id="5107">5.1.0.7</h4>
+
+<ul>
+  <li><strong>New:</strong> Recent action log history is now accessible from history button at top of action list.  Make access to recently performed actions quicker.</li>
+  <li><strong>New:</strong> Action log entries can now be deleted (Swipe right).</li>
+  <li><strong>New:</strong> CMD-Return external keyboard shortcut to toggle editor focus.</li>
+  <li><strong>New:</strong> <code class="highlighter-rouge">editor.isActive</code> bool property to determine if editor is currently in edit mode.</li>
+  <li><strong>Fix:</strong> Omit drafts in the trash from queries unless the trash folder is explicitly queried.</li>
+  <li><strong>Fix:</strong> Properly restore last selection when opening a draft.</li>
+  <li><strong>Fix:</strong> Various improvements for dynamic text.</li>
+</ul>
+
+<h4 id="5105">5.1.0.5</h4>
+
+<ul>
+  <li><strong>New:</strong> Event action step returns for creating calendar events with default system card. <a href="http://getdrafts.com/actions/steps/event">Docs</a></li>
+  <li><strong>New:</strong> <code class="highlighter-rouge">event.edit()</code> method. Displays a <code class="highlighter-rouge">Event</code> object in the system event editing card. Allows scripting to create modify the default values for the event (start/end, add alarms, etc.) then display the event for modification/editing and adding to the calendar. <a href="http://beta-reference.getdrafts.com/objects/Event.html">Docs</a></li>
+  <li><strong>Fix:</strong> Better restore of text selections when undo/redo are used.</li>
+</ul>
+
+<h4 id="5104">5.1.0.4</h4>
+
+<ul>
+  <li><strong>New:</strong> <code class="highlighter-rouge">Calendar</code> object now has some additional options:
+    <ul>
+      <li><code class="highlighter-rouge">events(startDate, endDate);</code> method to query the contents of a calendar. Returns an array of <code class="highlighter-rouge">Event</code> objects.</li>
+      <li><code class="highlighter-rouge">Calendar.default</code> property which returns the system default calendar for new events.</li>
+      <li><code class="highlighter-rouge">find(title)</code> method looks up a calendar by name.</li>
+      <li><code class="highlighter-rouge">Calendar.getAllCalendars();</code> returns array of all known calendars on the device.</li>
+      <li><a href="http://beta-reference.getdrafts.com/objects/Calendar.html">Docs</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="5103">5.1.0.3</h4>
+
+<ul>
+  <li><strong>Change:</strong> Better error reporting when file imports fail for some reason.</li>
+  <li><strong>Fix:</strong> Workaround dark theme tinting of the system file import view.</li>
+  <li><strong>Fix:</strong> Do not allow external keyboard shortcuts to interfere with arrow keys while editing search fields.</li>
+</ul>
+
+<h4 id="5102">5.1.0.2</h4>
+
+<ul>
+  <li><strong>New:</strong> Box action step to create, append, prepend to files in Box.com service. <a href="/actions/steps/box">Docs and Examples</a></li>
+  <li><strong>New:</strong> <code class="highlighter-rouge">Box</code> script object to read and write files to Box.com service. <a href="http://beta-reference.getdrafts.com/objects/Box.html">Docs</a></li>
+  <li><strong>New:</strong> Support traditional table edit mode for better VoiceOver experience.</li>
+  <li><strong>Fix:</strong> Improve frequency of updates to app badge.</li>
+</ul>
+
+<h4 id="5101">5.1.0.1</h4>
+
+<ul>
+  <li><strong>New:</strong> Workspaces and tag filter now support All/Any mode selection to switch between filtering multiple tags in boolean and / or modes.</li>
+  <li><strong>New:</strong> “Open in…” action step to support old-style document interaction export. <a href="/actions/steps/openin">Docs and Examples</a></li>
+  <li><strong>New:</strong> Ability to disable/enable and duplicate action steps. Handy for WIP step modifications and variants.</li>
+</ul>
+
+<h4 id="5052">5.0.5.2</h4>
 
 <ul>
   <li><strong>Fix:</strong> Refactor animation to avoid oddball case where the side panels could get stuck when the cursor was in certain positions with certain content in a draft.</li>

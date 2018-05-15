@@ -7,19 +7,19 @@
     <meta name="apple-itunes-app" content="app-id=1236254471, affiliate-data=at=11l4Cf&amp;ct=web_banner">
     <link rel="icon" href="/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Draft List Options | Drafts</title>
-<meta property="og:title" content="Draft List Options" />
+<title>Action Step – Box | Drafts</title>
+<meta property="og:title" content="Action Step – Box" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/drafts/listoptions.html" />
-<meta property="og:url" content="http://localhost:4000/drafts/listoptions.html" />
+<link rel="canonical" href="http://localhost:4000/actions/steps/box.html" />
+<meta property="og:url" content="http://localhost:4000/actions/steps/box.html" />
 <meta property="og:site_name" content="Drafts" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@draftsapp" />
 <meta property="article:publisher" content="https://www.facebook.com/draftsapp" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/drafts/listoptions.html","publisher":null,"image":null,"headline":"Draft List Options","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/actions/steps/box.html","publisher":null,"image":null,"headline":"Action Step – Box","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <meta property="og:image" content="http://getdrafts.com/images/drafts-ogimage.png" />
@@ -93,39 +93,39 @@
 
     <div id="main">
         <div class="header">
-            <h1>Draft List Options</h1>
+            <h1>Action Step – Box</h1>
         </div>
 
         <div class="content">
           <div class="navigation">
-  <a href="/drafts">&lt; Managing Drafts</a>
+  <a href="/actions/steps">&lt; Action Steps</a>
 </div>
 
-<p>The draft list has a number of features to help organize and work with drafts.</p>
+<p>Create, append or prepend to files in the <a href="http://box.com">Box.com service</a>. Note that more advanced Box actions can also be scripted with <a href="http://reference.getdrafts.com/objects/Box.html">Box scripting support</a>.</p>
 
-<div class="doc-image">
-<img src="/images/docs/drafts/listoptions.png" alt="" />
-</div>
+<h4 id="examples">Examples</h4>
 
-<h3 id="searching">Searching</h3>
+<ul>
+  <li><a href="https://actions.getdrafts.com/a/1IX">Save to Box</a></li>
+  <li><a href="https://actions.getdrafts.com/a/1IY">Append to Box Journal</a></li>
+</ul>
 
-<p>Tap on the search field (magnifying glass) in the top to search for drafts containing some specific text.</p>
+<h4 id="options">Options</h4>
 
-<h3 id="tag-filters">Tag Filters</h3>
-
-<div class="doc-image">
-<img src="/images/docs/drafts/tag-filters.png" alt="" />
-</div>
-
-<p>Tap the filter button at the top, or swipe to the right on the draft list to show the tag filter sidebar. Tap on one or more tag to filter to the list to show only drafts with those tags. “Show all” to remove tag filters, or use the special “untagged” filter to show only drafts which do not have any tags assigned.</p>
-
-<h3 id="sorting-and-display-options">Sorting and Display Options</h3>
-
-<p>Additional sorting and display options can be selected using the list options “…” button at the top right of the draft list.</p>
-
-<h3 id="workspaces-pro">Workspaces <a class="pro" href="/draftspro" title="Feature requires Drafts Pro">PRO</a></h3>
-
-<p>If you have particular sets of filters you use often, you can save all the filtering, search and display options as a “Workspace” in the list options “…” view. Saved workspaces can be selected all the active list options will be set to those stored in the workspace. Read the <a href="/drafts/workspaces">Workspaces article</a> for more details.</p>
+<ul>
+  <li><strong>Name</strong>: Template for file name, including extension.</li>
+  <li><strong>Path</strong>: Path of folder, relative to Box.com account root, to place file. Default “/” is the root of your Box.com folder. Should begin with “/”</li>
+  <li><strong>Template</strong>: Template for the content of the file.</li>
+  <li><strong>Write Type</strong>:
+    <ul>
+      <li><strong>create</strong>: Create a new file. If an existing file already exists at the location, create as new file with a number suffix added.</li>
+      <li><strong>replace</strong>: Create new file, overwriting an existing if it exists.</li>
+      <li><strong>prepend</strong>: Prepend template content at the beginning of the file. Create the file if it does not already exist.</li>
+      <li><strong>append</strong>: Append template content at the end of the file. Create the file if it does not already exist.</li>
+    </ul>
+  </li>
+  <li><strong>Identifier</strong>: A string identifier for the OneDrive account to use. This value is only needed if you wish to use more than one Box.com account with Drafts. If used, all actions with the same identifier will use the same alternate login for OneDrive.</li>
+</ul>
 
         </div>
 

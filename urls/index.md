@@ -7,6 +7,8 @@ Drafts implements URL actions based on [the x-callback-url specification](http:/
 
 All URLs should be proper valid URLs with URL encoded values in query arguments. With a few exceptions, all actions support x-callback-url x-success, x-error and x-cancel arguments where appropriate.
 
+*NOTE: Some URL scheme parameters and actions require a Pro subscription.* {% include pro.html %}
+
 ## Supported Actions
 
 ### /create

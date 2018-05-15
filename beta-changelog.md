@@ -2,6 +2,16 @@
 title: Changelog – Beta Version
 ---
 
+#### 5.1.0.7
+
+- **New:** Recent action log history is now accessible from history button at top of action list.  Make access to recently performed actions quicker.
+- **New:** Action log entries can now be deleted (Swipe right).
+- **New:** CMD-Return external keyboard shortcut to toggle editor focus.
+- **New:** `editor.isActive` bool property to determine if editor is currently in edit mode.
+- **Fix:** Omit drafts in the trash from queries unless the trash folder is explicitly queried.
+- **Fix:** Properly restore last selection when opening a draft.
+- **Fix:** Various improvements for dynamic text.
+
 #### 5.1.0.5
 
 - **New:** Event action step returns for creating calendar events with default system card. [Docs](http://getdrafts.com/actions/steps/event)

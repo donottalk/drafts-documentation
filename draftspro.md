@@ -37,6 +37,16 @@ Drafts is free to use, with full privileges to create, edit and sync drafts, and
 
 <div>
   <div class='icon'>
+    <img src="{{ site.baseurl }}/images/pro/feature-extensions.svg">
+  </div>
+  <div class='content'>
+    <h2>Widgets and Sharing</h2>
+    <p>Access drafts directly from enhanced Today widgets. Append and prepend to drafts in the Share extension.</p>
+  </div>
+</div>
+
+<div>
+  <div class='icon'>
     <img src="{{ site.baseurl }}/images/pro/feature-url.svg">
   </div>
   <div class='content'>
