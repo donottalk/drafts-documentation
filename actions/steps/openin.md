@@ -8,7 +8,7 @@ Export files via older iOS document interaction model offering "Open in..." othe
 
 #### Examples
 
-- [Open in...](https://actions.getdrafts.com/a/1IZ)
+- [Open in...](https://actions.getdrafts.com/a/1In)
 
 #### Options
 
