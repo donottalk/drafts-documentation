@@ -16,7 +16,9 @@ In many cases an action contains only one step, but multi-step actions allow com
 - [Share]({{ site.baseurl }}/actions/steps/share)
 - [Reminder]({{ site.baseurl }}/actions/steps/reminder)
 - [List in Reminders]({{ site.baseurl }}/actions/steps/listinreminders)
+- [Event]({{ site.baseurl }}/actions/steps/event)
 - [Export]({{ site.baseurl }}/actions/steps/export)
+- [Open in...]({{ site.baseurl }}/actions/steps/openin)
 - [Print]({{ site.baseurl }}/actions/steps/print)
 
 ### Social
@@ -29,6 +31,7 @@ In many cases an action contains only one step, but multi-step actions allow com
 - [Dropbox]({{ site.baseurl }}/actions/steps/dropbox)
 - [Google Drive]({{ site.baseurl }}/actions/steps/googledrive)
 - [OneDrive]({{ site.baseurl }}/actions/steps/onedrive)
+- [Box]({{ site.baseurl }}/actions/steps/box)
 - [WebDAV]({{ site.baseurl }}/actions/steps/webdav)
 - [Evernote]({{ site.baseurl }}/actions/steps/evernote)
 

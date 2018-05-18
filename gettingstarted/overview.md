@@ -83,8 +83,6 @@ Drafts 5 is new, free app with an optional Pro subscription. Here’s what that 
 ### What's Missing
 
 * **Some action steps and service integrations that were in Drafts 4 are not in Drafts 5**: In some cases the same functionality can still be integrated. Some of these may return to Drafts 5 as direct integrations, but they are not there at the moment. These include:
-	* *Box*: Files can be created, append and prepend to Box using the new WebDAV action step and [Box's WebDAV support][21], or via Export steps and the File.app Box integration. There is not currently a "Box" dedicated action step.
-	* *Event action step*: Calendar events can be create via scripting, or third party app integrations (like Fantastical), but there is not currently an equivalent to the Drafts 4 "Event" action.
 	* *Path and Google Plus*: These social media networks no longer have dedicated action steps.
 
 [1]: http://getdrafts.com/

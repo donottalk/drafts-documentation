@@ -2,6 +2,42 @@
 title: Changelog
 ---
 
+**Also visit the [News & Updates Topic](https://forums.getdrafts.com/c/news) on the Community for for update notes.**
+
+#### 5.1.0
+
+- **New action steps**
+  - `Event` action step returns for creating calendar events with default system card. [Docs and sample action](http://getdrafts.com/actions/steps/event).
+  - `Box` action step to create, append, prepend to files in Box.com service. [Docs and Examples](/actions/steps/box)
+  - `Open in...` action step to support old-style document interaction export. [Docs and Examples](/actions/steps/openin)
+- **Other new bits**
+  - Workspaces and tag filters now support "All - Any" mode selection to control whether drafts in the filter should match all the selected tags (and), or any of them (or).  This setting will be saved with Workspaces.
+  - Action steps in an action can now be disabled and duplicated (swipe on step in action editing to select). Handy addition for work-in-progress step modifications and testing variants of scripts.
+  - Recent action log history (not specific to individual drafts) is now accessible from history button at top of action list.  Makes access to recently performed actions quicker. Great for troubleshooting errors as well.
+  - Action log entries can now be deleted (Swipe right).
+  - CMD-Return external keyboard shortcut to toggle editor focus.
+  - Support traditional table edit mode for better VoiceOver experience.
+- **Scripting changes**
+  - Better scripting of Calendars and Events, including the ability to read calendar events. Details:
+      - `Calendar.default` property which returns the system default calendar for new events.
+      - `Calendar.find(title)` method looks up a calendar by name.
+      - `Calendar.getAllCalendars();` returns array of all known calendars on the device.
+      - `events(startDate, endDate);` method to query the contents of a calendar. Returns an array of `Event` objects. This can be used to import calendar events into a drafts, among other things.
+      - `event.edit()` method. Displays a `Event` object in the system event editing card. Allows scripting to create modify the default values for the event (start/end, add alarms, etc.) then display the event for modification/editing and adding to the calendar.
+      - More detail in [scripting reference](http://beta-reference.getdrafts.com/)
+  - `Box` script object to read and write files to Box.com service. [Docs](http://beta-reference.getdrafts.com/objects/Box.html)
+  - `editor.isActive` bool property to determine if editor is currently in edit mode.
+- **Other fixes and updates**
+  - **Fix:** Restore last selection when opening a draft.
+  - **Fix:** Better restore of text selections when undo/redo are used.
+  - **Fix:** Improve frequency of updates to app badge.
+  - **Fix:** Evernote action setup to use "Text" output not properly encoding some HTML entities.
+  - **Fix:** Omit drafts in the trash from queries unless the trash folder is explicitly queried.
+  - **Fix:** Various improvements for dynamic text.
+  - **Change:** Better error reporting when file imports fail for some reason.
+  - **Fix:** Workaround dark theme tinting of the system file import view.
+  - **Fix:** Do not allow external keyboard shortcuts to interfere with arrow keys while editing search fields.
+
 #### 5.0.5
 
 - **New:** Full access to Twitter API via Twitter object `request` method. Drafts will handle the OAuth, and you can make any valid calls against the Twitter API. [Details on methods in scripting documentation](http://reference.getdrafts.com/objects/Twitter.html). Same actions, like a Tweet Storm example, in the [Twitter integration guide](https://forums.getdrafts.com/t/using-twitter-with-drafts/109).
