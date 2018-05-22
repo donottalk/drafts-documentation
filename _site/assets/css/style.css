@@ -77,6 +77,20 @@ This styles the menu heading.
 */
 #menu a.pure-menu-heading { font-size: 1.1em; color: #fff; margin: 0; text-align: center; text-transform: none; font-weight: normal; padding: 0; }
 
+#menu .documentation { background-color: #275488; }
+#menu .documentation a { color: white; }
+
+#menu .action-directory { background-color: #358035; }
+#menu .action-directory a { color: white; }
+
+#menu .reference { background-color: #6B6E74; }
+#menu .reference a { color: white; }
+
+#menu .community { background-color: #76363A; }
+#menu .community a { color: white; }
+
+#menu .search { background-color: #354967; }
+
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
 /*
 The button to open/close the Menu is custom-made and not part of Pure. Here's
