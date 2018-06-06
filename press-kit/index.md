@@ -44,6 +44,6 @@ Drafts 5 is a ground-up rewrite of the app, bringing a new features and updates 
 - [Banners and Social Media Assets](http://media.agiletortoise.com/drafts5-press-kit/banner/)
 - [iPhone Screenshots](http://media.agiletortoise.com/drafts5-press-kit/screenshots/iPhone/)
 - [iPad Screenshots](http://media.agiletortoise.com/drafts5-press-kit/screenshots/iPad/)
-- [Apple Watch Screenshots](http://media.agiletortoise.com/drafts5-press-kit/screenshots/Apple Watch/)
+- [Apple Watch Screenshots](http://media.agiletortoise.com/drafts5-press-kit/screenshots/AppleWatch/)
 
 #### Contact
